@@ -11,44 +11,6 @@ menuBtn.click(function(){
 });
 
 
-//Video Popup
-var botonesAbrirPopup = $('.boton-prueba');
-var botonesCerrarPopup  = $('.boton-prueba-cerrar');
-
-botonesAbrirPopup.each(function(i) {
-  let btn = $(this);
-  btn.on('click', function() {
-    let youtubeId = btn.attr('data-video');
-    let overlay = btn.siblings('.boton-prueba-overlay').first();
-    let popup = overlay.children('.boton-prueba-popup').first();
-    let videoContainer = popup.children('.boton-prueba-video').first();
-    overlay.addClass('active');
-    popup.addClass('active');
-    videoContainer.html(getYoutubeIframe(youtubeId));
-  });
-});
-
-botonesCerrarPopup.each(function(i) {
-  let btn = $(this);
-  btn.on('click', function() {
-    let popup = btn.closest('.boton-prueba-popup').first();
-    let overlay = popup.parent('.boton-prueba-overlay').first();
-    let videoContainer = popup.children('.boton-prueba-video').first();
-    console.log(btn.html());
-    overlay.removeClass('active');
-    popup.removeClass('active');
-    videoContainer.html('');
-  });
-});
-
-function getYoutubeIframe(code) {
-  return ` <div class="video-ytb"> <iframe id="home-youtube" src="https://www.youtube.com/embed/`+code+`?controls=0&autoplay=1&modestbranding=1"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
-    
-  `;
-}
-
-
-
 /* JS DE Acordeon  */
 $(function() {
 

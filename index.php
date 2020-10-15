@@ -9,6 +9,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
     <script src="https://kit.fontawesome.com/4fc631efaf.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Montserrat:wght@100;300;500;600;800;900&family=Orbitron:wght@400;500&disgit =swap"
         rel="stylesheet">
@@ -62,23 +65,11 @@
         
 
         <section class="secc-inicio conteiner" id="inicio">
-
-            
-
             <div class="c-g-inicio">
-                <div class=" boton-prueba btn-abrir-popup"   data-video="zJERdko_M4w">
-                    <div class="c-inicio-rel">
+                <div class=" boton-prueba btn-abrir-popup">
+                    <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/watch?v=zJERdko_M4w&controls=0&autoplay=1&modestbranding=1">
                         <img class="img-play" src="img/play.png" alt="Play video misterio academia">
-                    </div>
-                </div>
-                
-                <div class="overlay boton-prueba-overlay" >
-                    <div class="popup boton-prueba-popup" >
-                        <div class="" >
-                            <a href="#"  class="btn-cerrar-popup boton-prueba-cerrar"><i class="fas fa-times"></i></a>
-                        </div>
-                        <div class="video-container boton-prueba-video" ></div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -158,10 +149,10 @@
 
                         <!--Contenedor magen de fondo con video-->
                         <div class="video-curso">
-                            <div class=" boton-prueba btn-abrir-popup"   data-video="Ll86BbvPjJg">
-                                <div class="c-inicio-rel">
+                            <div class=" boton-prueba btn-abrir-popup">
+                                <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/watch?v=Ll86BbvPjJg">
                                     <img class="img-play" src="img/btn-p-b-azul.png" alt="Play video misterio academia">
-                                </div>
+                                </a>
                             </div>
                 
                             <div class="overlay boton-prueba-overlay" >
