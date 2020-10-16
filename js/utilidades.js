@@ -10,7 +10,6 @@ menuBtn.click(function(){
   }
 });
 
-
 /* JS DE Acordeon  */
 $(function() {
 
@@ -30,10 +29,6 @@ $(function() {
     });
 
 });
-
-
-
-
 
 /* js de Carrousel */
 
@@ -62,14 +57,6 @@ function Move(value) {
     }
     
 };
-
-
-
-
-
-
-
-
 
  //Helper Anchors
  (function(document, history, location) {

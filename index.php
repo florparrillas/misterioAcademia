@@ -28,7 +28,7 @@
                 <div class="container fecha-curso-btn t-size-7">
                 <img class="icon-var" src="img/calendar.png" alt="">
                 <p class="fecha-prox-curso"> Proximo Curso : 18 de Septiembre</p>
-                <button href="#reserva-curso" class="btn-negro btn-fino btn-w-9">Comprar Curso</button>
+                <button    onclick="location.href='#reserva-curso'" class="btn-negro btn-fino btn-w-9">Comprar Curso</button>
                  </div>
                 
             </div>
@@ -67,7 +67,7 @@
         <section class="secc-inicio conteiner" id="inicio">
             <div class="c-g-inicio">
                 <div class=" boton-prueba btn-abrir-popup">
-                    <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/watch?v=zJERdko_M4w&controls=0&autoplay=1&modestbranding=1">
+                    <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/-wHebgZsIvs">
                         <img class="img-play" src="img/play.png" alt="Play video misterio academia">
                     </a>
                 </div>
@@ -83,7 +83,7 @@
         
        
 
-        <section class="secc-info-curso conteiner" id="curso">
+            <section class="secc-info-curso conteiner" id="curso">
                 <!--Contenedor Gral de Secc Curso-->
                 <div class="c-paralax-rel">
                     <div class="container pad-adaptable c-frase pad-top-3 pad-bottom-2">
@@ -96,7 +96,7 @@
                     <div class="c-gral-curso-video container pad-bottom-4">
                         <div class="detalle-curso ">
 
-                            <div class="linea-separadora">
+                            <div class="linea-separadora pad-bottom-1">
                                 <p class="pad-adaptable pad-cajas interlineado t-weight-300 t-size-1 ">
                                     <strong class="t-weight-800">Curso de</strong> ilusionismo
                                 </p>
@@ -143,35 +143,18 @@
                                 </div>
                             </div>
                         </div>
-
-
-
-
                         <!--Contenedor magen de fondo con video-->
                         <div class="video-curso">
                             <div class=" boton-prueba btn-abrir-popup">
-                                <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/watch?v=Ll86BbvPjJg">
-                                    <img class="img-play" src="img/btn-p-b-azul.png" alt="Play video misterio academia">
+                                <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/Ll86BbvPjJg">
+                                    <img class="img-play" src="img/play.png" alt="Play video misterio academia">
                                 </a>
                             </div>
-                
-                            <div class="overlay boton-prueba-overlay" >
-                                <div class="popup boton-prueba-popup" >
-                                    <div class="" >
-                                        <a href="#"  class="btn-cerrar-popup boton-prueba-cerrar"><i class="fas fa-times"></i></a>
-                                    </div>
-                                    <div class="video-container boton-prueba-video" ></div>
-                                </div>
-                            </div>
                         </div>
-
-
-
-                        
-            
                     </div>
+                     
                 </div>
-        </section>
+            </section>
 
         <!--Div para fondo Paralax, dentro seccion Ilusionistas y Preguntas Frecuentes -->
         <div class="fondo-paralax">
@@ -265,7 +248,7 @@
             
     
                 <!--Seccion de Preguntas Frecuentes -->
-                <section class="secc-preg-frec pad-bottom-2">
+                <section class="secc-preg-frec pad-bottom-2" id="preguntas">
                 
                     <div class="container ">
                         <div class=" pad-adaptable pad-cajas">
@@ -434,19 +417,10 @@
 
                     <!--Contenedor magen de fondo con video popup-->
                     <div class="video-curso">
-                            <div class=" boton-prueba btn-abrir-popup"   data-video="pV9wS8PqJVU">
-                                <div class="c-inicio-rel">
-                                    <img class="img-play" src="img/btn-p-b-rojo.png" alt="Play video misterio academia">
-                                </div>
-                            </div>
-                
-                            <div class="overlay boton-prueba-overlay" >
-                                <div class="popup boton-prueba-popup" >
-                                    <div class="" >
-                                        <a href="#"  class="btn-cerrar-popup boton-prueba-cerrar"><i class="fas fa-times"></i></a>
-                                    </div>
-                                    <div class="video-container boton-prueba-video" ></div>
-                                </div>
+                            <div class=" boton-prueba btn-abrir-popup">
+                                <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/pV9wS8PqJVU">
+                                    <img class="img-play" src="img/play.png" alt="Play video misterio academia">
+                                </a>
                             </div>
                         </div>
 
@@ -471,8 +445,9 @@
         </section>
 
         <!--Seccion Reserva Curso -->
-        <section class="secc-reserva-curso " id="reserva-curso">
-            <div class="container   con-gral-reserva pad-top">
+        <section class="secc-reserva-curso pad-bottom-1" id="reserva-curso">
+
+            <div class="container  con-gral-reserva pad-top-2 ">
                 <div class="con-info-reserva ">
                     <div class=" ">
                         <p class=" pad-adaptable t-size-1 t-weight-300  interlineado  ">
@@ -535,29 +510,21 @@
                 </div>
 
                        
- <!--Contenedor magen de fondo con video popup-->
- <div class="video-curso ">
-     <div class=" boton-prueba btn-abrir-popup"   data-video="b5M6U2f_TOw">
-         <div class="c-inicio-rel">
-             <img class="img-play" src="img/btn-p-b-rojo.png" alt="Play video misterio academia">
-         </div>
-     </div>
+                <!--Contenedor magen de fondo con video popup-->
+                        <div class="video-curso">
+                            <div class=" boton-prueba btn-abrir-popup">
+                                <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/zJERdko_M4w">
+                                    <img class="img-play" src="img/play.png" alt="Play video misterio academia">
+                                </a>
+                            </div>
+                        </div>
 
-     <div class="overlay boton-prueba-overlay" >
-         <div class="popup-1 boton-prueba-popup" >
-             <div class="" >
-                 <a href="#"  class="btn-cerrar-popup boton-prueba-cerrar"><i class="fas fa-times"></i></a>
-             </div>
-             <div class="video-container boton-prueba-video" ></div>
-         </div>
-     </div>
- </div>
-            </div>
-
-        </section>
+            </section>
 
 
-        <!--Seccion de Carrousel del Publico-->
+        
+        
+            <!--Seccion de Carrousel del Publico-->
         <section class="secc-casousel pad-top-2">
             <div class="Carousel  pad-cajas">
                 <div class="pad-bottom-4 pad-top centrado container t-carrousel">

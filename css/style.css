@@ -152,19 +152,7 @@ body{
 .video-1{
     width:50rem;
 }
-.video-ytb{
-    height:0px;
-    width:100%;
-    padding-top:43%; /* Relación: 16/9 = 56.25% */
-    position:relative;
-}
-.video-ytb iframe{
-    position:absolute;
-    height:100%;
-    width:100%;
-    top:0px;
-    left:0px;
-}
+
 
 
 /*Estilo de Container*/
@@ -300,66 +288,7 @@ display: flex;
     justify-content: center;
     align-items: center;
 }
-.btn-abrir-popup{
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    opacity: .5;
-}
 
-/*Ventana Emergente*/
-.overlay{
-    background: black;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    visibility: collapse;
-}
-.overlay.active{
-    visibility: visible;
-}
-.popup{
-    padding:0 0;
-    width: 98%;
-    height: 100%;
-    background: black;
-}
-.popup .btn-cerrar-popup{
-    font-size: 1.5rem;
-    line-height: .5rem;
-    display: block;
-    text-align: right;
-    color: rgb(110, 107, 105);
-    transition: .3s ease all;
-}
-.popup .btn-cerrar-popup:hover{
-    color: rgb(255, 255, 255);
-}
-
-.popup-1{
-    padding: 2rem 0;
-    width: 80%;
-    height: 100%;
-    background: blue;
-}
-.popup-1 .btn-cerrar-popup{
-    font-size: 1.5rem;
-    line-height: .5rem;
-    display: block;
-    text-align: right;
-    color: rgb(110, 107, 105);
-    transition: .3s ease all;
-}
-.popup-1 .btn-cerrar-popup:hover{
-    color: rgb(255, 255, 255);
-}
 
 /* Estilos de la Seccion Detalle de Curso + Video*/
 
@@ -384,13 +313,11 @@ display: flex;
     background-size: cover;
     position: relative;
     background-position: center;
-    
     height: 22rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    width:560px;    /* Ancho máximo */
-    margin:auto;    /* Centramos el vídeo */
+    width:45%;    /* Ancho máximo */
 }
 .c-pagos-botones{
     display: flex;
@@ -1096,7 +1023,9 @@ width: 100%;
     .pad-top{
     padding-top: 4rem;
 }
-
+.pad-bottom-4{
+    padding-bottom: 4rem;
+}
     .nav-ul{
         font-size: 1.2rem;
     }
@@ -1294,9 +1223,6 @@ justify-content: center;
     width: 18rem;
     height: 4rem;
 }
-.cont-btn-enviar{
-    justify-content: center;
-}
 .formulario-contacto{
     width: 100%;
 }
@@ -1360,6 +1286,33 @@ justify-content: center;
 .c-pagos-botones-c{
     display: flex;
     justify-content: center;
+}
+.cont-ilusionistas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%
+}
+.con-gral-ilusionista{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 16rem;
+    width: 18rem;
+}
+/*
+.con-gral-ilusionista{
+    justify-content: center;
+    align-items: center;
+    height: 11rem;
+    width: 27rem;
+    padding-left:0;
+    background: red;
+}*/
+.img-ilus{
+    height: 7rem;
+    width: 11rem;
 }
 
     }
