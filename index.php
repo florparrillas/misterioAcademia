@@ -21,41 +21,7 @@
 <body>
 
     <!--Header Fijo-->
-    <section class="secc-header">
-
-        <header class="header-fix">
-            <div class="c-fecha-curso">
-                <div class="container fecha-curso-btn t-size-7">
-                <img class="icon-var" src="img/calendar.png" alt="">
-                <p class="fecha-prox-curso"> Proximo Curso : 18 de Septiembre</p>
-                <button    onclick="location.href='#reserva-curso'" class="btn-negro btn-fino btn-w-9">Comprar Curso</button>
-                 </div>
-                
-            </div>
-
-            <div class=" logo-nav-container container">
-                <div>
-                    <p class="logo color-letra-gris t-size-4 t-weight-600">Misterio</p>
-
-                    <p class="logo color-letra-gris t-size-7">Academia de Magia.</p>
-                </div>
-
-                <img class="menu-icon" src="img/menu-mobile.png" alt="">
-
-                <nav class="navegador">
-                    <ul class="nav-ul t-size-6">
-                        <li><a href="#inicio">Inicio</a></li>
-                        <li><a href="#curso">Curso</a></li>
-                        <li><a href="#ilusionistas">Ilusionistas</a></li>
-                        <li><a href="#testimonios">Testimonios</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                    </ul>
-                </nav>
-
-            </div>
-
-        </header>
-    </section>
+    <?php include('header.php'); ?>
 
     <!--Conteneor General de la LandingPage-->
     <div class="contenedor-lp">
@@ -64,7 +30,7 @@
         
         
 
-        <section class="secc-inicio conteiner" id="inicio">
+        <section class="secc-inicio conteiner " id="inicio">
             <div class="c-g-inicio">
                 <div class=" boton-prueba btn-abrir-popup">
                     <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/-wHebgZsIvs">
@@ -83,7 +49,7 @@
         
        
 
-            <section class="secc-info-curso conteiner" id="curso">
+            <section class="secc-info-curso conteiner padding-res" id="curso">
                 <!--Contenedor Gral de Secc Curso-->
                 <div class="c-paralax-rel">
                     <div class="container pad-adaptable c-frase pad-top-3 pad-bottom-2">
@@ -133,10 +99,10 @@
                                     </div>
                                     <div class="">
                                         <div class="boton-pad">
-                                            <button onclick="location.href='#preguntas'" class="btn-violeta btn-w-12">Mas Informacion</button>
+                                            <button onclick="location.href='#preguntas'" class="btn-violeta cursor-p  btn-w-12">Mas Informacion</button>
                                         </div>
                                         <div>
-                                            <button onclick="location.href='#reserva-curso'" class="btn-transparente btn-w-12">Comprar Curso</button>
+                                            <button onclick="location.href='#reserva-curso'" class="btn-transparente cursor-p btn-w-12">Comprar Curso</button>
                                         </div>
                                     </div>
 
@@ -248,7 +214,7 @@
             
     
                 <!--Seccion de Preguntas Frecuentes -->
-                <section class="secc-preg-frec pad-bottom-2" id="preguntas">
+                <section class="secc-preg-frec pad-bottom-2 padding-res" id="preguntas">
                 
                     <div class="container ">
                         <div class=" pad-adaptable pad-cajas">
@@ -403,7 +369,7 @@
         <div class="container linea-separadora"></div>
    
         <!--Seccion de Testimonios -->
-        <section class="secc-testimonios pad-secciones pad-top-2" id="testimonios">
+        <section class="secc-testimonios pad-secciones pad-top-2 padding-res" id="testimonios">
 
         
         
@@ -445,9 +411,9 @@
         </section>
 
         <!--Seccion Reserva Curso -->
-        <section class="secc-reserva-curso pad-bottom-1" id="reserva-curso">
+        <section class="secc-reserva-curso pad-bottom-1 " id="reserva-curso">
 
-            <div class="container  con-gral-reserva pad-top-2 ">
+            <div class="container  con-gral-reserva pad-top-2 padding-res">
                 <div class="con-info-reserva ">
                     <div class=" ">
                         <p class=" pad-adaptable t-size-1 t-weight-300  interlineado  ">
@@ -542,27 +508,28 @@
                     <div class="slick-track" id="track">
                         <div class="slick">
                             <div>
-                                <a href="">
-                                    <picture>
+                                <a  data-fancybox href="img/publico_01.png">   
+                        
+                                    
                                         <img class="img-p" src="img/publico_01.png" alt="">
-                                    </picture>
+                                
                                 </a>
                             </div>
                         </div>
 
                         <div class="slick">
                             <div>
-                                <a href="">
-                                    <picture>
+                                <a data-fancybox href="img/publico_02.png">
+                                    
                                         <img class="img-p" src="img/publico_02.png" alt="">
-                                    </picture>
+                                   
                                 </a>
                             </div>
                         </div>
 
                         <div class="slick">
                             <div>
-                                <a href="">
+                                <a data-fancybox href="img/publico_03.png">
                                     <picture>
                                         <img class="img-p" src="img/publico_03.png" alt="">
                                     </picture>
@@ -572,7 +539,7 @@
 
                         <div class="slick">
                             <div>
-                                <a href="">
+                                <a data-fancybox href="img/publico_04.png">
                                     <picture>
                                         <img class="img-p" src="img/publico_04.png" alt="">
                                     </picture>
@@ -582,7 +549,7 @@
 
                         <div class="slick">
                             <div>
-                                <a href="">
+                                <a data-fancybox href="img/publico_05.png">
                                     <picture>
                                         <img class="img-p" src="img/publico_05.png" alt="">
                                     </picture>
@@ -592,7 +559,7 @@
 
                         <div class="slick">
                             <div>
-                                <a href="">
+                                <a data-fancybox href="img/publico_06.png">
                                     <picture>
                                         <img class="img-p" src="img/publico_06.png" alt="">
                                     </picture>
@@ -602,7 +569,7 @@
 
                         <div class="slick">
                             <div>
-                                <a href="">
+                                <a data-fancybox href="img/publico_07.png">
                                     <picture>
                                         <img class="img-p" src="img/publico_07.png" alt="">
                                     </picture>
@@ -612,7 +579,7 @@
                         
                         <div class="slick">
                             <div>
-                                <a href="">
+                                <a data-fancybox href="img/publico_08.png">
                                     <picture>
                                         <img class="img-p" src="img/publico_08.png" alt="">
                                     </picture>
@@ -622,7 +589,7 @@
 
                         <div class="slick">
                             <div>
-                                <a href="">
+                                <a data-fancybox href="img/publico_09.png">
                                     <picture>
                                         <img class="img-p" src="img/publico_09.png" alt="">
                                     </picture>
@@ -646,7 +613,7 @@
         <!--Seccion Contacto-->
         <section class="secc-contacto" id="contacto">
 
-            <div class="container c-contacto pad-secciones">
+            <div class="container c-contacto pad-secciones padding-res">
                 
                 <div class="centrado pad-adaptable">
                     <p class="t-size-3 pad-cajas">
@@ -737,7 +704,7 @@
         <!--Boton de Whatsapp Flotante-->
         <section class="container">
             <div class="">
-                    <a class="btn-float" target="_blank" href="https://web.whatsapp.com/"><img class="btn-wts" src="img/w-float.png" alt=""></a>
+                    <a class="btn-float " target="_blank" href="https://web.whatsapp.com/"><img class="btn-wts" src="img/w-float.png" alt=""></a>
             </div>
         </section>
 
@@ -745,21 +712,9 @@
 
         
     </div>
-
-    <section class="sec-footer container">
-        <footer class="">
-        <div class="footer-1">
-            <div>
-            <p class="logo t-size-6"> \ Misterio /</p>
-            </div>
-           <div>
-           <p class="logo t-size-8">Academia de Magia</p>
-           </div>
-           
-       </div>
-        </footer>
-       
-    </section>
+        <!--Seccion Footer-->
+        <?php include('footer.php'); ?>
+    
 
 </body>
         <script src="js/utilidades.js"></script>

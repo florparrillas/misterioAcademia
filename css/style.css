@@ -100,6 +100,10 @@ body{
 .pad-right{
     padding-right: .6rem;
 }
+.padding-res{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 .interlineado{
     line-height: 3rem;
 }
@@ -112,6 +116,12 @@ body{
     border-radius: 0.4rem;
     
 }
+.btn-transparente:hover{
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgb(23, 79, 131);
+    transition: all 0.2s ease;
+    
+}
 .btn-violeta{
     background-color: rgb(44, 32, 151);
     color: white;
@@ -121,6 +131,13 @@ body{
     border-radius: 0.4rem;
     
 }
+.btn-violeta:hover{
+    -webkit-transform: scale(2);
+    transform: scale(1.1);
+    
+}
+
+
 .btn-negro{
     background-color: black;
     color: cornsilk;
@@ -185,12 +202,15 @@ body{
     color: rgb(255, 255, 255);
     
 }
+.cursor-p{
+    cursor: pointer;
+}
 .fecha-curso-btn{
 display: flex;
     justify-content: flex-end;
     align-items: center;
     box-sizing: border-box;
-    padding: 0.3rem 0;
+    padding: 0.3rem 1rem;
 }
 .icon-var{
     width: 2rem;
@@ -219,7 +239,7 @@ display: flex;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 0;
+    padding: 1.5rem 1rem;
     /* Si el elemento tiene mas ancho del permitido para estar uno al lado del otro, lo pasa auna 
     linea abajo*/
     flex-wrap: wrap;
@@ -281,6 +301,10 @@ display: flex;
 }
 .img-play{
     width: 6rem;
+}
+.img-play:hover{
+    -webkit-transform: scale(2);
+    transform: scale(1.1);
 }
 .c-g-inicio{
     height: 70vh;
@@ -405,6 +429,12 @@ display: flex;
 .c-indv-acordeon{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+}
+.c-indv-acordeon:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1.02);
+    transition: all 0.2s ease;
+    cursor: pointer;
 }
 .acordion {
     display: block;
