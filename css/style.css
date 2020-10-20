@@ -622,6 +622,10 @@ width: 30%;
     align-items: center;
     padding-bottom: 1rem;
 }
+.red-img-text:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1.05);
+}
 .formulario-contacto{
     width: 70%;
 }
@@ -637,15 +641,19 @@ width: 30%;
     height: 2.5rem;
     color: white;
     font-family: 'Orbitron', sans-serif;
+    padding-left: 1rem;
 }
 .inp-nombre{
     width: 12rem;
+    
 }
 .inp-telefono{
     width: 12rem;
+    
 }
 .inp-email{
     width: 16rem;
+    
 }
 .info-usuario{
     padding: 0.2rem 0.5rem;
@@ -667,6 +675,8 @@ input[type=number] {
     height: 7rem;
     padding: 0 0.6rem;
     font-family: 'Orbitron', sans-serif;
+    padding-left: 1rem;
+    padding-top: .5rem;
 }
 .cont-btn-enviar{
     display: flex;

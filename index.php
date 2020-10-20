@@ -113,7 +113,7 @@
                         <div class="video-curso">
                             <div class=" boton-prueba btn-abrir-popup">
                                 <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/Ll86BbvPjJg">
-                                    <img class="img-play" src="img/play.png" alt="Play video misterio academia">
+                                    <img class="img-play" src="img/btn-p-b-azul.png" alt="Play video misterio academia">
                                 </a>
                             </div>
                         </div>
@@ -385,7 +385,7 @@
                     <div class="video-curso">
                             <div class=" boton-prueba btn-abrir-popup">
                                 <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/pV9wS8PqJVU">
-                                    <img class="img-play" src="img/play.png" alt="Play video misterio academia">
+                                    <img class="img-play" src="img/btn-p-b-rojo.png" alt="Play video misterio academia">
                                 </a>
                             </div>
                         </div>
@@ -480,7 +480,7 @@
                         <div class="video-curso">
                             <div class=" boton-prueba btn-abrir-popup">
                                 <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/zJERdko_M4w">
-                                    <img class="img-play" src="img/play.png" alt="Play video misterio academia">
+                                    <img class="img-play" src="img/btn-p-rojo.png" alt="Play video misterio academia">
                                 </a>
                             </div>
                         </div>
@@ -645,7 +645,7 @@
                                     </div>
 
                                     <div class="cont-info-usuario">
-                                        <input placeholder="Email" class="inp-email inp-info" type="email" name="correo" required
+                                        <input placeholder=" Email" class="inp-email inp-info" type="email" name="correo" required
                                         id=""> <span></span>
                                     </div>
                                 </div>
