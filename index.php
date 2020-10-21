@@ -34,7 +34,7 @@
             <div class="c-g-inicio">
                 <div class=" boton-prueba btn-abrir-popup">
                     <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/-wHebgZsIvs">
-                        <img class="img-play" src="img/play.png" alt="Play video misterio academia">
+                        <img class="img-play" src="img/play_gris.png" alt="Play video misterio academia">
                     </a>
                 </div>
             </div>
@@ -102,8 +102,9 @@
                                             <button onclick="location.href='#preguntas'" class="btn-violeta cursor-p  btn-w-12">Mas Informacion</button>
                                         </div>
                                         <div>
-                                            <button onclick="location.href='#reserva-curso'" class="btn-transparente cursor-p btn-w-12">Comprar Curso</button>
+                                            <button onclick="location.href='#reserva-curso'" class="btn-gris pad-btn btn-w-12">Comprar Curso</button>
                                         </div>
+
                                     </div>
 
                                 </div>
@@ -113,7 +114,7 @@
                         <div class="video-curso">
                             <div class=" boton-prueba btn-abrir-popup">
                                 <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/Ll86BbvPjJg">
-                                    <img class="img-play" src="img/btn-p-b-azul.png" alt="Play video misterio academia">
+                                    <img class="img-play" src="img/play_azul.png" alt="Play video misterio academia">
                                 </a>
                             </div>
                         </div>
@@ -205,7 +206,7 @@
                         <div class="pad-cajas pad-left">
                             <p class="t-size-4 pad-cajas ">¿Listo para comenzar?</p>
                             <div class="cont-btn-enviar">
-                                <button onclick="location.href='#reserva-curso'" class="btn-transparente btn-w-12">Comprar  Curso</button>
+                                <button onclick="location.href='#reserva-curso'" class="btn-gris pad-btn btn-w-12">Comprar  Curso</button>
                             </div>
                         </div>
                     </div>
@@ -374,18 +375,15 @@
         
         
             <div class="container">
-                <span id="testimonios" style="
-                position: absolute;
-                top: -142px;
-                "></span>
-                <p class="pad-adaptable t-size-3 t-weight-600 color-letra-gris pad-bottom-2">Testimonios</p>
+               
+                <p class="pad-adaptable t-size-3 t-weight-600 color-letra-gris pad-bottom-2 pad-top-2">Testimonios</p>
                 <div class="c-opinion-videos pad-cajas ">
 
                     <!--Contenedor magen de fondo con video popup-->
                     <div class="video-curso">
                             <div class=" boton-prueba btn-abrir-popup">
                                 <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/pV9wS8PqJVU">
-                                    <img class="img-play" src="img/btn-p-b-rojo.png" alt="Play video misterio academia">
+                                    <img class="img-play" src="img/play_azul.png" alt="Play video misterio academia">
                                 </a>
                             </div>
                         </div>
@@ -480,7 +478,7 @@
                         <div class="video-curso">
                             <div class=" boton-prueba btn-abrir-popup">
                                 <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/zJERdko_M4w">
-                                    <img class="img-play" src="img/btn-p-rojo.png" alt="Play video misterio academia">
+                                    <img class="img-play" src="img/play_azul.png" alt="Play video misterio academia">
                                 </a>
                             </div>
                         </div>
@@ -491,121 +489,62 @@
         
         
             <!--Seccion de Carrousel del Publico-->
-        <section class="secc-casousel pad-top-2">
-            <div class="Carousel  pad-cajas">
-                <div class="pad-bottom-4 pad-top centrado container t-carrousel">
+
+
+        <section class="secc-casousel pad-top-2 container">
+            <div class="pad-cajas">
+            <div class="pad-bottom-4 pad-top centrado container t-carrousel">
                     <p class=" pad-adaptable titulo-seccion interlineado t-size-1 t-weight-300">
                     <strong class="t-weight-800">Vive la</strong>  experiencia
                     </p>
                 </div>
+            
 
-                <div class=" linea-separadora-gris"></div>
+        <div class="pad-bottom-2">
+        <p class="imglist" >
+<a class="link-img-carrousel" href="img/publico_01.png" data-fancybox="images">
+    <img class="img-carrousel" src="img/publico_01.png" />
+  </a>
+  <a href="img/publico_02.png" data-fancybox="images">
+    <img class="img-carrousel" src="img/publico_02.png" />
+  </a>
 
-                <div class="slick-list  " id="slick-list">
-                    <button class="slick-arrow slick-prev" id="button-prev">
-                        <img class="flecha" src="img/f-izq.png" alt="">
-                    </button>
-                    <div class="slick-track" id="track">
-                        <div class="slick">
-                            <div>
-                                <a  data-fancybox href="img/publico_01.png">   
-                        
-                                    
-                                        <img class="img-p" src="img/publico_01.png" alt="">
-                                
-                                </a>
-                            </div>
-                        </div>
+  <a href="img/publico_03.png" data-fancybox="images">
+    <img class="img-carrousel" src="img/publico_03.png" />
+  </a>
+  
+  <a href="img/publico_04.png" data-fancybox="images">
+    <img class="img-carrousel" src="img/publico_04.png" />
+  </a>
 
-                        <div class="slick">
-                            <div>
-                                <a data-fancybox href="img/publico_02.png">
-                                    
-                                        <img class="img-p" src="img/publico_02.png" alt="">
-                                   
-                                </a>
-                            </div>
-                        </div>
+  <a href="img/publico_05.png" data-fancybox="images">
+    <img class="img-carrousel" src="img/publico_05.png" />
+  </a>
 
-                        <div class="slick">
-                            <div>
-                                <a data-fancybox href="img/publico_03.png">
-                                    <picture>
-                                        <img class="img-p" src="img/publico_03.png" alt="">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
+  <a href="img/publico_06.png" data-fancybox="images">
+    <img class="img-carrousel" src="img/publico_06.png" />
+  </a>
 
-                        <div class="slick">
-                            <div>
-                                <a data-fancybox href="img/publico_04.png">
-                                    <picture>
-                                        <img class="img-p" src="img/publico_04.png" alt="">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
+  <a href="img/publico_07.png" data-fancybox="images">
+    <img class="img-carrousel" src="img/publico_07.png" />
+  </a>
 
-                        <div class="slick">
-                            <div>
-                                <a data-fancybox href="img/publico_05.png">
-                                    <picture>
-                                        <img class="img-p" src="img/publico_05.png" alt="">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="slick">
-                            <div>
-                                <a data-fancybox href="img/publico_06.png">
-                                    <picture>
-                                        <img class="img-p" src="img/publico_06.png" alt="">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="slick">
-                            <div>
-                                <a data-fancybox href="img/publico_07.png">
-                                    <picture>
-                                        <img class="img-p" src="img/publico_07.png" alt="">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        
-                        <div class="slick">
-                            <div>
-                                <a data-fancybox href="img/publico_08.png">
-                                    <picture>
-                                        <img class="img-p" src="img/publico_08.png" alt="">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="slick">
-                            <div>
-                                <a data-fancybox href="img/publico_09.png">
-                                    <picture>
-                                        <img class="img-p" src="img/publico_09.png" alt="">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <button class="slick-arrow slick-next" id="button-next">
-                        <img class="flecha" src="img/f-der.png" alt="">
-                    </button>
-                </div>
-
-                <div class="linea-separadora-gris pad-cajas"></div>
-
+  <a href="img/publico_08.png" data-fancybox="images">
+    <img class="img-carrousel" src="img/publico_08.png" />
+  </a>
+  
+  <a href="img/publico_09.png" data-fancybox="images">
+    <img class="img-carrousel" src="img/publico_09.png" />
+  </a>
+        </div>
+      
             </div>
+
+        
+
+       
+
+
         </section>
 
 
