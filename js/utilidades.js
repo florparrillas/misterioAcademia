@@ -8,7 +8,10 @@ menuBtn.click(function(){
   } else {
       menu.addClass('show');
   }
+  
 });
+
+
 
 /* JS DE Acordeon  */
 $(function() {

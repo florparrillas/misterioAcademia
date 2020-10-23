@@ -22,11 +22,11 @@
 
         <nav class="navegador">
             <ul class="nav-ul t-size-6">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#curso">Curso</a></li>
-                <li><a href="#ilusionistas">Ilusionistas</a></li>
-                <li><a href="#testimonios">Testimonios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#inicio" onclick="closeNav()">Inicio</a></li>
+                <li><a href="#curso" onclick="closeNav()">Curso</a></li>
+                <li><a href="#ilusionistas" onclick="closeNav()">Ilusionistas</a></li>
+                <li><a href="#testimonios" onclick="closeNav()">Testimonios</a></li>
+                <li><a href="#contacto" onclick="closeNav()">Contacto</a></li>
             </ul>
         </nav>
 

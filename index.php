@@ -49,20 +49,20 @@
         
        
 
-            <section class="secc-info-curso conteiner padding-res" id="curso">
+            <section class="secc-info-curso" id="curso">
                 <!--Contenedor Gral de Secc Curso-->
-                <div class="c-paralax-rel">
+                <div class="">
                     <div class="container pad-adaptable c-frase pad-top-3 pad-bottom-2">
                         <img class="icon-cal" src="img/idea.png" alt="">
-                        <p class="interlineado t-weight-300 t-size-5">
+                        <p class="interlineado-fino t-weight-300 t-size-5">
                             "El Misterio es la sensación más bella que podemos experimentar". <strong class="t-size-7 t-weight-600"> Albert Einstein</strong>
                         </p>
                     </div>
 
-                    <div class="c-gral-curso-video container pad-bottom-4">
+                    <div class="c-gral-curso-video  pad-bottom-4">
                         <div class="detalle-curso ">
 
-                            <div class="linea-separadora pad-bottom-1">
+                            <div class="linea-separadora pad-bottom-1 container">
                                 <p class="pad-adaptable pad-cajas interlineado t-weight-300 t-size-1 ">
                                     <strong class="t-weight-800">Curso de</strong> ilusionismo
                                 </p>
@@ -97,9 +97,9 @@
                                             Western union <br>
                                         </p>
                                     </div>
-                                    <div class="">
-                                        <div class="boton-pad">
-                                            <button onclick="location.href='#preguntas'" class="btn-violeta cursor-p  btn-w-12">Mas Informacion</button>
+                                    <div class="btn-info-comprar">
+                                        <div class="boton-pad pad-left-480">
+                                            <button onclick="location.href='#preguntas'" class="btn-violeta  btn-w-12">Mas Informacion</button>
                                         </div>
                                         <div>
                                             <button onclick="location.href='#reserva-curso'" class="btn-gris pad-btn btn-w-12">Comprar Curso</button>
@@ -111,6 +111,7 @@
                             </div>
                         </div>
                         <!--Contenedor magen de fondo con video-->
+                       
                         <div class="video-curso">
                             <div class=" boton-prueba btn-abrir-popup">
                                 <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/Ll86BbvPjJg">
@@ -118,6 +119,8 @@
                                 </a>
                             </div>
                         </div>
+                        
+                        
                     </div>
                      
                 </div>
@@ -138,7 +141,7 @@
                            <strong class="t-weight-900">Staff de</strong>  Profesores
                         </p>
 
-                        <div class="cont-ilusionistas pad-cajas">
+                        <div class="cont-ilusionistas ">
                             
                                 <div class="con-gral-ilusionista">
                                     <div class="cont-img-ilusionista">
@@ -149,10 +152,15 @@
                                         <p class="t-size-7">Premio mundial de invención.  </p>
                                         <div class="con-logo-redes">
                                             <div class="pad-right">
-                                                <img class="logo-red-social" src="img/linkedin.png" alt="">
+                                                <a href="https://www.linkedin.com/">
+                                                    <img class="logo-red-social" src="img/linkedin_blanco.png" alt="">
+                                                </a>
+                                                
                                             </div>
                                             <div class="pad-right">
-                                                <img class="logo-red-social" src="img/instagram.png" alt="">
+                                                <a href="https://www.instagram.com/">
+                                                <img class="logo-red-social" src="img/instagram_blanco.png" alt="">
+                                                </a>
                                             </div>
                                             
                                         </div>
@@ -169,12 +177,17 @@
                                     <p class="t-size-5 t-weight-600">Martin Braessas</p>
                                     <p class="t-size-7">Conferencista Internacional.</p>
                                     <div class="con-logo-redes">
-                                        <div class="pad-right">
-                                            <img class="logo-red-social" src="img/linkedin.png" alt="">
-                                        </div>
-                                        <div class="pad-right">
-                                            <img class="logo-red-social" src="img/instagram.png" alt="">
-                                        </div>
+                                    <div class="pad-right">
+                                                <a href="https://www.linkedin.com/">
+                                                    <img class="logo-red-social" src="img/linkedin_blanco.png" alt="">
+                                                </a>
+                                                
+                                            </div>
+                                            <div class="pad-right">
+                                                <a href="https://www.instagram.com/">
+                                                <img class="logo-red-social" src="img/instagram_blanco.png" alt="">
+                                                </a>
+                                            </div>
                                         
                                     </div>
                                     
@@ -191,19 +204,24 @@
                                     <p class="t-size-5 t-weight-600">Rodrigo Romano</p>
                                     <p class="t-size-7">Campeón latinoamericano.</p>
                                     <div class="con-logo-redes">
-                                        <div class="pad-right">
-                                            <img class="logo-red-social" src="img/linkedin.png" alt="">
-                                        </div>
-                                        <div class="pad-right">
-                                            <img class="logo-red-social" src="img/instagram.png" alt="">
-                                        </div>
+                                    <div class="pad-right">
+                                                <a href="https://www.linkedin.com/">
+                                                    <img class="logo-red-social" src="img/linkedin_blanco.png" alt="">
+                                                </a>
+                                                
+                                            </div>
+                                            <div class="pad-right">
+                                                <a href="https://www.instagram.com/">
+                                                <img class="logo-red-social" src="img/instagram_blanco.png" alt="">
+                                                </a>
+                                            </div>
                                         
                                     </div>
                                 </div>
                             </div>
                         </div>
     
-                        <div class="pad-cajas pad-left">
+                        <div class="pad-left">
                             <p class="t-size-4 pad-cajas ">¿Listo para comenzar?</p>
                             <div class="cont-btn-enviar">
                                 <button onclick="location.href='#reserva-curso'" class="btn-gris pad-btn btn-w-12">Comprar  Curso</button>
@@ -217,9 +235,9 @@
                 <!--Seccion de Preguntas Frecuentes -->
                 <section class="secc-preg-frec pad-bottom-2 padding-res" id="preguntas">
                 
-                    <div class="container ">
+                    <div class="container">
                         <div class=" pad-adaptable pad-cajas">
-                            <p class="t-size-3 linea-separadora interlineado centrado pad">
+                            <p class="t-size-3 linea-separadora interlineado  pad-cajas">
                                 <strong class="t-weight-600">Preguntas </strong> frecuentes
                             </p>
                         </div>
@@ -371,16 +389,14 @@
    
         <!--Seccion de Testimonios -->
         <section class="secc-testimonios pad-secciones pad-top-2 padding-res" id="testimonios">
-
-        
         
             <div class="container">
                
-                <p class="pad-adaptable t-size-3 t-weight-600 color-letra-gris pad-bottom-2 pad-top-2">Testimonios</p>
-                <div class="c-opinion-videos pad-cajas ">
+                <p class="pad-adaptable t-size-4 t-weight-600 color-letra-gris  pad-top-2">Testimonios</p>
+                <div class="c-opinion-videos">
 
                     <!--Contenedor magen de fondo con video popup-->
-                    <div class="video-curso">
+                        <div class="video-curso">
                             <div class=" boton-prueba btn-abrir-popup">
                                 <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/pV9wS8PqJVU">
                                     <img class="img-play" src="img/play_azul.png" alt="Play video misterio academia">
@@ -388,16 +404,16 @@
                             </div>
                         </div>
 
-                    <div class="c-alumnos-opinan centrado pad-top">
-                        <p class="interlineado">
+                    <div class="c-alumnos-opinan pad-adaptable pad-top">
+                        <p class="interlineado pad-adaptable">
                         <strong class="t-weight-800 t-size-1">Nuestros Alumnos</strong>
                         </p>
-                        <p class="t-size-3 t-weight-300 interlineado pad-bottom-2">
+                        <p class="t-size-3 t-weight-300 interlineado pad-bottom-2 pad-top-2 text-ad pad-adaptable">
                             OPINAN //
                         </p>
                         <div class="">
-                            <div class=" linea-separadora-corta centrado"></div>
-                            <p class="">
+                            <div class=" linea-separadora-corta"></div>
+                            <p class="pad-adaptable">
                                 <strong>A tener en cuenta: </strong> <br>
                                 Las vacantes son limitadas para poder tener un seguimiento <br>
                                 de los alumnos y resolver todas sus dudas.
@@ -411,7 +427,7 @@
         <!--Seccion Reserva Curso -->
         <section class="secc-reserva-curso pad-bottom-1 " id="reserva-curso">
 
-            <div class="container  con-gral-reserva pad-top-2 padding-res">
+            <div class="  con-gral-reserva pad-top-2 padding-res">
                 <div class="con-info-reserva ">
                     <div class=" ">
                         <p class=" pad-adaptable t-size-1 t-weight-300  interlineado  ">
@@ -434,8 +450,8 @@
                             </div>
                 
     
-                            <div class="c-pagos-botones-c">
-                                <div>
+                            <div class="c-botones-info">
+                                <div class="">
                                     <p class="t-weight-300 t-size-3 pad-cajas">
                                         Unico Pago <strong class="t-weight-800">$2.300,-</strong> Ars
                                     </p>
@@ -443,7 +459,7 @@
                                         <strong>Selecciona tu metodo de pago:</strong>
                                     </p>
     
-                                    <div class="">
+                                    <div class="contenedor-btn-pagos">
     
                                         <div class="pad-cajas-1 btn-pago">
                                             <div class="bla">
@@ -493,58 +509,52 @@
 
         <section class="secc-casousel pad-top-2 container">
             <div class="pad-cajas">
-            <div class="pad-bottom-4 pad-top centrado container t-carrousel">
+            <div class="pad-bottom-4 pad-top  container t-carrousel">
                     <p class=" pad-adaptable titulo-seccion interlineado t-size-1 t-weight-300">
                     <strong class="t-weight-800">Vive la</strong>  experiencia
                     </p>
                 </div>
             
 
-        <div class="pad-bottom-2">
-        <p class="imglist" >
-<a class="link-img-carrousel" href="img/publico_01.png" data-fancybox="images">
-    <img class="img-carrousel" src="img/publico_01.png" />
-  </a>
-  <a href="img/publico_02.png" data-fancybox="images">
-    <img class="img-carrousel" src="img/publico_02.png" />
-  </a>
+            <div class="pad-bottom-2">
+                <p class="imglist" >
+                    <a class="link-img-carrousel" href="img/publico_01.png" data-fancybox="images">
+                        <img class="img-carrousel" src="img/publico_01.png" />
+                    </a>
+                    <a href="img/publico_02.png" data-fancybox="images">
+                        <img class="img-carrousel" src="img/publico_02.png" />
+                    </a>
 
-  <a href="img/publico_03.png" data-fancybox="images">
-    <img class="img-carrousel" src="img/publico_03.png" />
-  </a>
+                    <a href="img/publico_03.png" data-fancybox="images">
+                        <img class="img-carrousel" src="img/publico_03.png" />
+                    </a>
   
-  <a href="img/publico_04.png" data-fancybox="images">
-    <img class="img-carrousel" src="img/publico_04.png" />
-  </a>
+                    <a href="img/publico_04.png" data-fancybox="images">
+                        <img class="img-carrousel" src="img/publico_04.png" />
+                    </a>
 
-  <a href="img/publico_05.png" data-fancybox="images">
-    <img class="img-carrousel" src="img/publico_05.png" />
-  </a>
+                    <a href="img/publico_05.png" data-fancybox="images">
+                        <img class="img-carrousel" src="img/publico_05.png" />
+                    </a>
 
-  <a href="img/publico_06.png" data-fancybox="images">
-    <img class="img-carrousel" src="img/publico_06.png" />
-  </a>
+                    <a href="img/publico_06.png" data-fancybox="images">
+                        <img class="img-carrousel" src="img/publico_06.png" />
+                    </a>
 
-  <a href="img/publico_07.png" data-fancybox="images">
-    <img class="img-carrousel" src="img/publico_07.png" />
-  </a>
+                    <a href="img/publico_07.png" data-fancybox="images">
+                        <img class="img-carrousel" src="img/publico_07.png" />
+                    </a>
 
-  <a href="img/publico_08.png" data-fancybox="images">
-    <img class="img-carrousel" src="img/publico_08.png" />
-  </a>
+                    <a href="img/publico_08.png" data-fancybox="images">
+                        <img class="img-carrousel" src="img/publico_08.png" />
+                    </a>
   
-  <a href="img/publico_09.png" data-fancybox="images">
-    <img class="img-carrousel" src="img/publico_09.png" />
-  </a>
-        </div>
+                    <a href="img/publico_09.png" data-fancybox="images">
+                        <img class="img-carrousel" src="img/publico_09.png" />
+                    </a>
+            </div>
       
             </div>
-
-        
-
-       
-
-
         </section>
 
 
@@ -554,7 +564,7 @@
 
             <div class="container c-contacto pad-secciones padding-res">
                 
-                <div class="centrado pad-adaptable">
+                <div class=" pad-adaptable">
                     <p class="t-size-3 pad-cajas">
                         Contacto
                     </p>
@@ -607,32 +617,26 @@
                     <div class="con-redes-sociales">
                         <div class="red-img-text">
                             <div class="cont-rs-contacto">
-                                <img class="icon-red-social" src="img/linkedin.png" alt="">
+                                <img class="icon-red-social" src="img/linkedin_blanco.png" alt="">
                             </div>
-                            <div>
-                                <p>
-                                    /academiademagia
-                                </p>
+                            <div class="link-redes">
+                                <a href="https://www.linkedin.com/">/academiademagia</a>
                             </div>
                         </div>
                         <div class="red-img-text">
                             <div class="cont-rs-contacto">
-                                <img class="icon-red-social" src="img/instagram.png" alt="">
+                                <img class="icon-red-social" src="img/instagram_blanco.png" alt="">
                             </div>
-                            <div>
-                                <p>
-                                    /academiademagia
-                                </p>
+                            <div class="link-redes">
+                                <a href="https://www.instagram.com/">/academiademagia</a>
                             </div>
                         </div>
                         <div class="red-img-text">
                             <div class="cont-rs-contacto">
-                                <img class="icon-red-social" src="img/whatsapp.png" alt="">
+                                <img  class="icon-red-social" src="img/whatsapp_blanco.png" alt="">
                             </div>
-                            <div>
-                                <p>
-                                    +54 11 5555 5555
-                                </p>
+                            <div class="link-redes">
+                                <a href="https://web.whatsapp.com/">+54 11 5555 5555</a>
                             </div>
                         </div>
                     </div>
@@ -643,7 +647,7 @@
         <!--Boton de Whatsapp Flotante-->
         <section class="container">
             <div class="">
-                    <a class="btn-float " target="_blank" href="https://web.whatsapp.com/"><img class="btn-wts" src="img/w-float.png" alt=""></a>
+                    <a class="btn-float " target="_blank" href="https://web.whatsapp.com/"><img class="btn-wts" src="img/whatsapp_verde.png" alt=""></a>
             </div>
         </section>
 

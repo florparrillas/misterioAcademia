@@ -49,6 +49,9 @@ body{
 .pad-left{
     padding-left: .6rem;
 }
+.pad-left-480{
+    padding-left: 0;
+}
 .t-weight-300{
     font-weight: 300;
 }
@@ -109,6 +112,9 @@ body{
 }
 .interlineado{
     line-height: 3rem;
+}
+.interlineado-fino{
+    line-height: 1.5rem;
 }
 .btn-transparente{
     background-color: transparent;
@@ -332,6 +338,7 @@ display: flex;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding: 3rem 0;
 }
 .c-gral-curso-video{
     display: flex;
@@ -401,6 +408,7 @@ display: flex;
     box-sizing: border-box;
     width:100%;
     padding-top: 6rem;
+    padding-bottom: 2rem;
 }
 .con-gral-ilusionista{
     display: flex;
@@ -483,6 +491,8 @@ display: flex;
     width: 60%;
 }
 .c-opinion-videos{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
     display: flex;
 }
 .c-video-opiniones{
@@ -507,8 +517,6 @@ display: flex;
 }
 .con-gral-reserva{
     position: relative;
-}
-.con-gral-reserva{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -655,6 +663,10 @@ input[type=number] {
     height: 400px;
     background-size: cover;
 }
+.link-redes a{
+text-decoration: none;
+color: white;
+}
 
 /*Boton Flotante Whatsapp*/
 .btn-float{
@@ -738,7 +750,7 @@ z-index: 2;
     font-size: 1.5rem;
 }
 .t-size-5{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 .t-size-6{
     font-size: 1rem;
@@ -748,6 +760,10 @@ z-index: 2;
 }
 .t-size-8{
     font-size: .7rem;
+}
+.btn-gris{
+    background: transparent;
+    color: white;
 }
     .pad-adaptable{
         padding-left: 1rem;
@@ -761,9 +777,6 @@ z-index: 2;
         }
      /*E Secc Curso 1200px*/
 
-    .secc-info-curso{
-        padding: 0 1rem ;
-    }
     .secc-ilusionistas{
         padding: 0 1rem ;
     }
@@ -793,7 +806,7 @@ z-index: 2;
     width: 9rem;
 }
 .logo-red-social{
-    width: 1.3rem;
+    width: 1.5rem;
 }
 
 /*Seccion Contacto hasta 1200px*/
@@ -876,9 +889,6 @@ box-sizing: border-box;
 .pad-secciones{
     padding: 2rem 0;
 }
-.centrado{
-    text-align: center;
-    }
 .pad-left{
     padding-left: 1rem;
 }
@@ -901,6 +911,7 @@ box-sizing: border-box;
     width: 100%;
     padding-bottom: 2rem;
     padding-right: 1;
+    padding-left: 1rem;
 }
 .video-curso{
     width: 100%;
@@ -945,6 +956,8 @@ box-sizing: border-box;
 .c-alumnos-opinan{
 width: 100%;
 padding: 1.5rem 0 ;
+padding-top: 0;
+padding-bottom: 1rem;
 }
 .c-video-opiniones{
 width: 100%;
@@ -956,6 +969,9 @@ width: 100%;
     width: 100%;
 }
 
+    .c-opinion-videos{
+        padding-top: 0;
+    }
 /*Secc Reserva Curso hasta 979*/
 .con-gral-reserva{
     display: flex;
@@ -1044,9 +1060,6 @@ width: 100%;
 .t-size-4{
     font-size: 1.5rem;
 }
-.t-size-5{
-    font-size: 1.9rem;
-}
 .t-size-6{
     font-size: 1rem;
 }
@@ -1073,13 +1086,13 @@ width: 100%;
         font-size: 1.5rem;
     }
     .t-size-3{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .t-size-4{
-        font-size: .9rem;
+        font-size: 1.1rem;
     }
     .t-size-5{
-        font-size: .9rem;
+        font-size: 1.1rem;
     }
     .t-size-6{
         padding-left: 0;
@@ -1092,10 +1105,7 @@ width: 100%;
         height: 40vh;
     }
     /*Secc Detalle Curso hasta 767*/
-    .c-gral-curso-video{
-        display: flex;
-        flex-direction:column;	
-    }
+    
     .detalle-curso{
         width: 100%;
         padding: 0 0.2rem;
@@ -1135,13 +1145,7 @@ width: 100%;
         transition: all 0.4s linear;
         border-radius: 5px;
      }
-     .navegador ul li a:hover{
-        background-color: rgb(95, 95, 95);
-     }
-     .detalle-curso{
-         display: flex;
-        flex-direction:column;	
-     }  
+    
      .contenedor-pagos-botones{
         padding-bottom: 3rem;
     }
@@ -1152,23 +1156,15 @@ width: 100%;
     }  
 
     /*Secc Ilusionistas hasta 767*/
-.centrado{
-text-align: center;
-}
+
+    
+
 .img-ilus{
     height: 8rem;
     width: 13rem;
 }
 .cont-ilusionistas{
     width:100%;
-    padding-top: 6rem;
-}
-.con-gral-ilusionista{
-    justify-content: center;
-    align-items: center;
-    height: 11rem;
-    width: 30rem;
-    padding-left:1rem;
 }
 
 /*Secc Testimonios hasta 767*/
@@ -1176,15 +1172,16 @@ text-align: center;
     display: flex;
     flex-direction: column;
 }
-
+.c-alumnos-opinan{
+    padding-top: 0;
+    padding-bottom: 1rem;
+    }
+    .c-opinion-videos{
+        padding-top: 0;
+    }
 /*Secc Preguntas Frecuentes hasta 767*/
 .t-preguntas-frecuentes{
     width: 100%;
-}
-
-
-.c-pagos-botones-c{
-  
 }
 
 .con-info-reserva{
@@ -1251,12 +1248,55 @@ justify-content: center;
 
 /*Estilos de version Maximo 480px*/
 @media (max-width: 480px) {
-.pad-top{
-    padding-top: 2rem;
+    .interlineado{
+        line-height: 2rem;
+    }
+    .interlineado-fino{
+        line-height: 1rem;
+    }
+    .t-size-1{
+        font-size: 1.8rem;
+    }
+    .t-size-5{
+        font-size: 1rem;
+    }
+    .t-size-7{
+        font-size: .8rem;
+    }
+    .t-size-8{
+        font-size: .6rem;
+    }
+    .btn-w-12{
+        width: 9rem;
+    }
+    .pad-top-2{
+        padding-top: 1rem;
+    }
+    .pad-top{
+        padding-top: 0;
+    }
+.pad-left-480{
+    padding-right: .5rem;
+}
+.pad-cajas{
+    padding: 1rem 0;
+}
+.pad-bottom-2{
+    padding-bottom: 0;
 }
     .btn-pago{
         display: flex;
         flex-direction:column;	
+    }
+    .btn-negro{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        border: transparent;
+    }
+    .text-ad{
+        padding-top: 3rem;
+        padding-bottom: 1rem;
     }
    .bla{
        padding-bottom: 2rem;
@@ -1264,6 +1304,9 @@ justify-content: center;
    .c-pagos-botones{
     display: block;
 }
+.fecha-curso-btn{
+   display: none;
+    }
 .fecha-curso{
     background: black;
     color: rgb(255, 255, 255);
@@ -1281,24 +1324,58 @@ justify-content: center;
     padding-right: .5rem;
     font-size: 0.6rem;
 }
-.c-pagos-botones-c{
+
+/*Secc Inicio*/
+.c-frase{
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
+}
+.icon-cal{
+    height: 1.5rem;
+    padding-right: .5rem;
+}
+.c-pagos-botones{
+    width:100%;
+}
+.btn-info-comprar{
+    padding-top: 1rem;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
+.detalle-curso{
+    padding: 0 1rem;	
+} 
+.c-gral-curso-video{
+    width: 100%;
+}
+/*Secc Ilusionistas*/
+
 .cont-ilusionistas{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:100%
+    width:100%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 .con-gral-ilusionista{
     display: block;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 16rem;
-    width: 18rem;
+    width: 100%;
 }
+.con-logo-redes{
+    height: 3rem;
+    width: 70%;
+    border-bottom: gray solid .1rem;
+}
+.cont-info-ilusionista{
+    padding-top: 1rem;
+}
+
 /*
 .con-gral-ilusionista{
     justify-content: center;
@@ -1310,7 +1387,58 @@ justify-content: center;
 }*/
 .img-ilus{
     height: 7rem;
-    width: 11rem;
+    width: 10rem;
 }
-
+/*Secc Testimonios*/
+.c-alumnos-opinan{
+    padding: 1rem 0 ;
+    }
+    
+    .video-curso{
+        height: 15rem;
+    }
+    /*Secc Reserva de curso*/
+    .con-gral-reserva{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 1.5rem 0;
+        width: 100%;
+    }
+    .c-botones-info{
+        width: 100%;
+        padding: 0 0;
+    }
+    .bla{
+        padding-right: 0;
+    }
+    .con-info-reserva{
+        width:100%;
+        padding: 0 0;
+    }
+    .contenedor-btn-pagos{
+        width: 100%;
+    }
+    .btn-w-16{
+        width: 100%;
+    }
+    /*Secc Galeria de imagenes*/
+    .img-carrousel{
+        width: 100%;
+    }
+    /*Secc Contacto*/
+    .red-img-text{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-bottom: 1rem;
+    }
+    .con-redes-sociales{
+        width: 100%;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        }
     }
