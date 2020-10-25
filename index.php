@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link id="favicon" rel="icon" sizes="32x32" href="favicon.ico" type="image/ico"/>
+    <link id="favicon" rel="icon" sizes="32x32" href="img/favicon.ico" type="image/ico"/>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -549,16 +549,13 @@
                                     <img class="img-carrousel" src="img/publico_03.png" />
                                 </a>
                             </div>
-
-                                <div class="ver-mas-img">
-
-
-                                <a class=" btn-mas-img" href="img/publico_04.png" data-fancybox="images">
-                                   Ver Mas Imagenes!!
+                            <div class="ver-mas-img">
+                                <a class=" btn-mas-img ver-mas-img" href="img/publico_04.png" data-fancybox="images">
+                                    Ver Mas Imagenes!!
                                 </a>
-                                </div>
+                            </div>
 
-                            <div class="ocultar-img-480">
+                            <div class="ocultar-img-480 img-dis-none">
                                 <a href="img/publico_04.png" data-fancybox="images">
                                     <img class="img-carrousel" src="img/publico_04.png" />
                                 </a>
@@ -592,10 +589,12 @@
                                     <img class="img-carrousel" src="img/publico_09.png" />
                                 </a>
                             </div>
+                          
                         </div>
+                      
                     </div>
          
-      
+                   
                 </div>
             </section>
 

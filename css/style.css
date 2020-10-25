@@ -569,6 +569,7 @@ display: flex;
 .form-datos-personales{
     display: flex;
     justify-content: flex-start;
+    width: 100%;
 }
 .con-redes-form{
     display: flex;
@@ -1446,11 +1447,16 @@ justify-content: center;
 }
 /*Secc Testimonios*/
 .c-alumnos-opinan{
-    padding: 1rem 0 ;
+    padding-top:  2rem ;
     }
     
     .video-curso{
         height: 15rem;
+    }
+    .c-opinion-videos{
+        
+        padding-bottom: 0;
+        
     }
     /*Secc Reserva de curso*/
     .con-gral-reserva{

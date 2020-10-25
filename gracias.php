@@ -30,7 +30,7 @@
                    Gracias!
                </p>
                 <p class="t-size-4 pad-bottom-2">
-                Nuestro magos se pondrán en contacto a la brevedad.
+                Nuestros magos se pondrán en contacto a la brevedad.
                 </p>
                 <a href="index.php">Volver</a>
            </div>
