@@ -17,22 +17,26 @@
 </head>
 <body>
 
-     <!--Header Fijo-->
-     <?php include('header.php'); ?>
+    
 
 
 
 
-<section class="container">
-    <div class="msj-gracias">
-        <div>
-            <p class="t-size-3 t-weight-600 pad-bottom-4">Tu mensaje fue enviado!</p>
-            <p class="t-size-3  pad-bottom-4">En breve nos pondremos en contacto</p>
-            <a class="volver" href="index.php">Volver al Inicio</a>
+<section class=" secc-gracias">
+    <div class="cont-mensj-gracias">
+        <div class="msj-gracias">
+           <div class="mensaje-gracias container">
+               <p class="t-size-1 t-weight-800 pad-bottom-2">
+                   Gracias!
+               </p>
+                <p class="t-size-4 pad-bottom-2">
+                Nuestro magos se pondrán en contacto a la brevedad.
+                </p>
+                <a href="index.php">Volver</a>
+           </div>
         </div>
-        
-        
     </div>
+    
 
 </section>
 

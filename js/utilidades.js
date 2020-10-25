@@ -2,6 +2,7 @@
 var menuBtn = $('.menu-icon');
 var menu = $('.navegador ul');
 
+
 menuBtn.click(function(){
   if(menu.hasClass('show')){
       menu.removeClass('show');
@@ -10,8 +11,11 @@ menuBtn.click(function(){
   }
   
 });
-
-
+menu.click(function(){
+  if(menu.hasClass('show')){
+    menu.removeClass('show');
+}
+});
 
 /* JS DE Acordeon  */
 $(function() {
@@ -32,8 +36,6 @@ $(function() {
     });
 
 });
-
-
 
 
  //Helper Anchors

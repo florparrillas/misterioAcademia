@@ -2,9 +2,17 @@
 <html lang="en">
 
 <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TZJFPKX');</script>
+        <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link id="favicon" rel="icon" sizes="32x32" href="favicon.ico" type="image/ico"/>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -19,6 +27,10 @@
 </head>
 
 <body>
+        <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZJFPKX"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
 
     <!--Header Fijo-->
     <?php include('header.php'); ?>
@@ -27,8 +39,7 @@
     <div class="contenedor-lp">
 
         <!--Seccion Inicio con video PopUp-->
-        
-        
+           
 
         <section class="secc-inicio conteiner " id="inicio">
             <div class="c-g-inicio">
@@ -40,11 +51,6 @@
             </div>
         </section>
 
-
-
-
-
-        
         <!--Seccion Detalle Curso fondo Parallax -->
         
        
@@ -59,8 +65,16 @@
                         </p>
                     </div>
 
-                    <div class="c-gral-curso-video  pad-bottom-4">
-                        <div class="detalle-curso ">
+                    <div class="c-gral-curso-video pad-bottom-4">
+
+                       <div class="video-curso">
+                            <div class=" boton-prueba btn-abrir-popup">
+                                <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/Ll86BbvPjJg">
+                                    <img class="img-play" src="img/play_azul.png" alt="Play video misterio academia">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="detalle-curso">
 
                             <div class="linea-separadora pad-bottom-1 container">
                                 <p class="pad-adaptable pad-cajas interlineado t-weight-300 t-size-1 ">
@@ -112,13 +126,7 @@
                         </div>
                         <!--Contenedor magen de fondo con video-->
                        
-                        <div class="video-curso">
-                            <div class=" boton-prueba btn-abrir-popup">
-                                <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/Ll86BbvPjJg">
-                                    <img class="img-play" src="img/play_azul.png" alt="Play video misterio academia">
-                                </a>
-                            </div>
-                        </div>
+                     
                         
                         
                     </div>
@@ -388,53 +396,59 @@
         <div class="container linea-separadora"></div>
    
         <!--Seccion de Testimonios -->
-        <section class="secc-testimonios pad-secciones pad-top-2 padding-res" id="testimonios">
+        <section class="secc-testimonios pad-secciones pad-top-2 " id="testimonios">
         
-            <div class="container">
                
-                <p class="pad-adaptable t-size-4 t-weight-600 color-letra-gris  pad-top-2">Testimonios</p>
-                <div class="c-opinion-videos">
+               <p class="pad-adaptable t-size-4 t-weight-600 color-letra-gris container pad-top-2">Testimonios</p>
+               
 
-                    <!--Contenedor magen de fondo con video popup-->
-                        <div class="video-curso">
-                            <div class=" boton-prueba btn-abrir-popup">
-                                <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/pV9wS8PqJVU">
-                                    <img class="img-play" src="img/play_azul.png" alt="Play video misterio academia">
-                                </a>
-                            </div>
-                        </div>
+                <div class="c-opinion-videos pad-bottom-4">
 
-                    <div class="c-alumnos-opinan pad-adaptable pad-top">
-                        <p class="interlineado pad-adaptable">
-                        <strong class="t-weight-800 t-size-1">Nuestros Alumnos</strong>
-                        </p>
-                        <p class="t-size-3 t-weight-300 interlineado pad-bottom-2 pad-top-2 text-ad pad-adaptable">
-                            OPINAN //
-                        </p>
-                        <div class="">
-                            <div class=" linea-separadora-corta"></div>
-                            <p class="pad-adaptable">
-                                <strong>A tener en cuenta: </strong> <br>
-                                Las vacantes son limitadas para poder tener un seguimiento <br>
-                                de los alumnos y resolver todas sus dudas.
-                            </p>
+                    <div class="video-curso">
+                        <div class=" boton-prueba btn-abrir-popup">
+                            <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/pV9wS8PqJVU">
+                                <img class="img-play" src="img/play_azul.png" alt="Play video misterio academia">
+                            </a>
                         </div>
                     </div>
-                </div>
-            </div>
+                    <div class="detalle-curso ">
+                        <div class="c-alumnos-opinan pad-adaptable padding-res container">
+                            <p class="interlineado pad-adaptable">
+                                <strong class="t-weight-800 t-size-1">Nuestros Alumnos</strong>
+                            </p>
+                            <p class="t-size-3 t-weight-300 interlineado pad-bottom-2 pad-top-2 text-ad pad-adaptable">
+                                OPINAN //
+                            </p>
+                            <div class="">
+                                <div class=" linea-separadora-corta"></div>
+                                    <p class="pad-adaptable">
+                                        <strong>A tener en cuenta: </strong> <br>
+                                        Las vacantes son limitadas para poder tener un seguimiento <br>
+                                        de los alumnos y resolver todas sus dudas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
         </section>
+
+
+
+
+
 
         <!--Seccion Reserva Curso -->
         <section class="secc-reserva-curso pad-bottom-1 " id="reserva-curso">
 
-            <div class="  con-gral-reserva pad-top-2 padding-res">
-                <div class="con-info-reserva ">
-                    <div class=" ">
+            <div class="con-gral-reserva pad-top-2 ">
+                <div class="con-info-reserva padding-res">
+                    
                         <p class=" pad-adaptable t-size-1 t-weight-300  interlineado  ">
                             <strong class="t-weight-800">Reservar</strong> Curso
                         </p>
                         <div class="">
-                            <div class="pad-left">
+                            <div class="pad-left ">
                                 <p class="t-size-4 pad-top-3">
                                     Misterio // Academia de Magia
                                 </p>
@@ -450,54 +464,57 @@
                             </div>
                 
     
-                            <div class="c-botones-info">
+                            <div class="c-botones-info  ">
                                 <div class="">
-                                    <p class="t-weight-300 t-size-3 pad-cajas">
+                                    <div class="pad-left">
+                                    <p class="t-weight-300 t-size-3 pad-cajas ">
                                         Unico Pago <strong class="t-weight-800">$2.300,-</strong> Ars
                                     </p>
-                                    <p class="t-size-5 t-weight-400 pad-cajas">
+                                    <p class="t-size-5 t-weight-400 pad-cajas ">
                                         <strong>Selecciona tu metodo de pago:</strong>
                                     </p>
+                                    </div>
+                                    
     
-                                    <div class="contenedor-btn-pagos">
+                                    <div class="contenedor-btn-pagos container">
     
                                         <div class="pad-cajas-1 btn-pago">
                                             <div class="bla">
-                                                <button onclick="location.href='https://www.facebook.com'" class="btn-negro btn-w-16 btn-grueso pad-right">Tarjeta de <br> Credito o Debito</button>
+                                                <button  onClick="javascript:window.open('https://www.paypal.com', '_blank');"  class="btn-negro btn-w-16 btn-grueso pad-right" >Tarjeta de <br> Credito o Debito</button>
                                             </div>
                                             <div>
-                                                <button onclick="location.href='https://www.facebook.com'" class="btn-negro btn-w-16 btn-grueso ">Paypal</button>
+                                                <button onClick="javascript:window.open('https://www.paypal.com', '_blank');" class="btn-negro btn-w-16 btn-grueso ">Paypal</button>
                                             </div>
                                         </div>
                                         <div class="pad-cajas-1 btn-pago">
                                             <div class="bla">
-                                                <button onclick="location.href='https://www.facebook.com'" class="btn-negro btn-w-16 btn-grueso  pad-right">Pago Facil</button>
+                                                <button  onClick="javascript:window.open('https://www.e-pagofacil.com/', '_blank');"  class="btn-negro btn-w-16 btn-grueso  pad-right">Pago Facil</button>
                                             </div>
                                             <div>
-                                                <button onclick="location.href='https://www.facebook.com'" class="btn-negro btn-w-16 btn-grueso ">Transferencia <br> Bancaria</button>
+                                                <button onClick="javascript:window.open('https://www.bbva.com.ar/', '_blank');"   class="btn-negro btn-w-16 btn-grueso ">Transferencia <br> Bancaria</button>
                                             </div>
                                         </div>
                                         <div class="pad-cajas-1 btn-pago">
                                             <div class="bla">
-                                                <button onclick="location.href='https://www.facebook.com'" class="btn-negro btn-w-16 btn-grueso pad-right">Western Union</button>
+                                                <button onClick="javascript:window.open('https://www.westernunion.com/', '_blank');"  class="btn-negro btn-w-16 btn-grueso pad-right">Western Union</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                  
                 </div>
 
                        
                 <!--Contenedor magen de fondo con video popup-->
-                        <div class="video-curso">
-                            <div class=" boton-prueba btn-abrir-popup">
-                                <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/zJERdko_M4w">
-                                    <img class="img-play" src="img/play_azul.png" alt="Play video misterio academia">
-                                </a>
-                            </div>
-                        </div>
+                <div class="video-curso">
+                    <div class=" boton-prueba btn-abrir-popup">
+                        <a class="c-inicio-rel" data-fancybox href="https://www.youtube.com/embed/zJERdko_M4w">
+                            <img class="img-play" src="img/play_azul.png" alt="Play video misterio academia">
+                        </a>
+                    </div>
+                </div>
 
             </section>
 
@@ -505,57 +522,82 @@
         
         
             <!--Seccion de Carrousel del Publico-->
+        
+            <section class="secc-casousel pad-top-2 ">
+                <div class="pad-cajas ">
+                    <div class="pad-bottom-4 pad-top container   t-carrousel">
+                        <p class=" pad-adaptable titulo-seccion interlineado t-size-1 t-weight-300">
+                        <strong class="t-weight-800">Vive la</strong>  experiencia
+                        </p>
+                    </div>
+                    <div class="pad-bottom-2 c-galeria-reacciones">
+                        <div class=" p-img-galeria">
+                            <div>
+                                <a class="link-img-carrousel" href="img/publico_01.png" data-fancybox="images">
+                                    <img class="img-carrousel" src="img/publico_01.png" />
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="img/publico_02.png" data-fancybox="images">
+                                    <img class="img-carrousel" src="img/publico_02.png" />
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href="img/publico_03.png" data-fancybox="images">
+                                    <img class="img-carrousel" src="img/publico_03.png" />
+                                </a>
+                            </div>
+
+                                <div class="ver-mas-img">
 
 
-        <section class="secc-casousel pad-top-2 container">
-            <div class="pad-cajas">
-            <div class="pad-bottom-4 pad-top  container t-carrousel">
-                    <p class=" pad-adaptable titulo-seccion interlineado t-size-1 t-weight-300">
-                    <strong class="t-weight-800">Vive la</strong>  experiencia
-                    </p>
-                </div>
-            
+                                <a class=" btn-mas-img" href="img/publico_04.png" data-fancybox="images">
+                                   Ver Mas Imagenes!!
+                                </a>
+                                </div>
 
-            <div class="pad-bottom-2">
-                <p class="imglist" >
-                    <a class="link-img-carrousel" href="img/publico_01.png" data-fancybox="images">
-                        <img class="img-carrousel" src="img/publico_01.png" />
-                    </a>
-                    <a href="img/publico_02.png" data-fancybox="images">
-                        <img class="img-carrousel" src="img/publico_02.png" />
-                    </a>
+                            <div class="ocultar-img-480">
+                                <a href="img/publico_04.png" data-fancybox="images">
+                                    <img class="img-carrousel" src="img/publico_04.png" />
+                                </a>
+                            </div>
 
-                    <a href="img/publico_03.png" data-fancybox="images">
-                        <img class="img-carrousel" src="img/publico_03.png" />
-                    </a>
-  
-                    <a href="img/publico_04.png" data-fancybox="images">
-                        <img class="img-carrousel" src="img/publico_04.png" />
-                    </a>
+                            <div class="ocultar-img-480">
+                                <a href="img/publico_05.png" data-fancybox="images">
+                                    <img class="img-carrousel" src="img/publico_05.png" />
+                                </a>
+                            </div>
 
-                    <a href="img/publico_05.png" data-fancybox="images">
-                        <img class="img-carrousel" src="img/publico_05.png" />
-                    </a>
+                            <div class="ocultar-img-480">
+                                <a href="img/publico_06.png" data-fancybox="images">
+                                    <img class="img-carrousel" src="img/publico_06.png" />
+                                </a>
+                            </div>
 
-                    <a href="img/publico_06.png" data-fancybox="images">
-                        <img class="img-carrousel" src="img/publico_06.png" />
-                    </a>
-
-                    <a href="img/publico_07.png" data-fancybox="images">
-                        <img class="img-carrousel" src="img/publico_07.png" />
-                    </a>
-
-                    <a href="img/publico_08.png" data-fancybox="images">
-                        <img class="img-carrousel" src="img/publico_08.png" />
-                    </a>
-  
-                    <a href="img/publico_09.png" data-fancybox="images">
-                        <img class="img-carrousel" src="img/publico_09.png" />
-                    </a>
-            </div>
+                            <div class="ocultar-img-480">
+                                <a href="img/publico_07.png" data-fancybox="images">
+                                    <img class="img-carrousel" src="img/publico_07.png" />
+                                </a>
+                            </div>
+                            <div class="ocultar-img-480">
+                                <a href="img/publico_08.png" data-fancybox="images">
+                                    <img class="img-carrousel" src="img/publico_08.png" />
+                                </a>
+                            </div>
+                   
+                            <div class="ocultar-img-480">
+                                <a href="img/publico_09.png" data-fancybox="images">
+                                    <img class="img-carrousel" src="img/publico_09.png" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+         
       
-            </div>
-        </section>
+                </div>
+            </section>
 
 
         
@@ -647,7 +689,7 @@
         <!--Boton de Whatsapp Flotante-->
         <section class="container">
             <div class="">
-                    <a class="btn-float " target="_blank" href="https://web.whatsapp.com/"><img class="btn-wts" src="img/whatsapp_verde.png" alt=""></a>
+                    <a class="btn-float " target="_blank" href="https://wa.me/5491144743241?text=Me%20gustaría%20saber%20más%20info%20sobre%20el%20curso.%20Gracias."><img class="btn-wts" src="img/whatsapp_verde.png" alt=""></a>
             </div>
         </section>
 

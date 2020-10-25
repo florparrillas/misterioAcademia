@@ -14,11 +14,7 @@ body{
     margin: auto;
     font-weight: 300;
 }
-.msj-gracias{
-    padding-top: 20rem;
-    display: flex;
-    justify-content: center;
-}
+
 .color-letra-gris{
     color: rgb(59, 59, 59);
 }
@@ -116,6 +112,8 @@ body{
 .interlineado-fino{
     line-height: 1.5rem;
 }
+
+/*Botones*/
 .btn-transparente{
     background-color: transparent;
     color: white;
@@ -145,6 +143,7 @@ body{
     color: white;
     padding: 1rem;
     border-color: transparent;
+    cursor: pointer;
 }
 .btn-violeta:hover{
     background-color: rgb(44, 29, 182);
@@ -159,7 +158,6 @@ body{
     border: #919191 0.05rem solid;
 }
 .btn-negro:hover{
-    
     background-color: black;
 }
  
@@ -209,7 +207,7 @@ body{
     padding-bottom: 1rem;
 }
 
-
+/*Boton Play Videos*/
 .i-play-video{
     width: 5rem;
 }
@@ -219,9 +217,6 @@ body{
     background: black;
     color: rgb(255, 255, 255);
     
-}
-.cursor-p{
-    cursor: pointer;
 }
 .fecha-curso-btn{
 display: flex;
@@ -257,7 +252,7 @@ display: flex;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 1rem;
+    padding: 1rem 1rem;
     /* Si el elemento tiene mas ancho del permitido para estar uno al lado del otro, lo pasa auna 
     linea abajo*/
     flex-wrap: wrap;
@@ -274,13 +269,12 @@ display: flex;
     padding: 0;
     list-style-type: none;
 }
-
 .navegador ul li{
    display: inline-block;
 }
 .navegador ul li a{
     display: block;
-    padding: 0.4rem 1rem;
+    padding: 0 1rem;
     transition: all 0.1s linear;
     border-radius: 5px;
     text-decoration: none;
@@ -333,7 +327,6 @@ display: flex;
 
 
 /* Estilos de la Seccion Detalle de Curso + Video*/
-
 .c-frase{
     display: flex;
     justify-content: flex-start;
@@ -345,7 +338,6 @@ display: flex;
     align-items: center; 
    justify-content: space-around;
 }
-
 .detalle-curso{
  width: 45%;
  padding-right: 2rem;
@@ -481,22 +473,17 @@ display: flex;
 .secc-testimonios{
     background-color: white;
 }
-.con-testimonios-alumnos{
-    display: flex;
-    justify-content: space-between;
-}
 .c-alumnos-opinan{
     color: rgb(59, 59, 59);
-    padding-left: 3rem;
-    width: 60%;
+    padding-top: 1rem;
+    
 }
 .c-opinion-videos{
     padding-top: 3rem;
     padding-bottom: 2rem;
     display: flex;
-}
-.c-video-opiniones{
-    width: 40%;
+    align-items: center; 
+   justify-content: space-around;
 }
 
 /*Seccion Reservar Curso*/
@@ -518,7 +505,7 @@ display: flex;
 .con-gral-reserva{
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
 }
 .detalle-formas-pago{
@@ -528,8 +515,25 @@ display: flex;
     display: flex;
 }
 
+
+
+
+/*Secc Galeria Imagenes*/
+
+.c-galeria-reacciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-img-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 .img-carrousel{
-    width: 18rem;
+    width: 15rem;
     padding: 0.5rem 1rem;
 }
 .img-carrousel:hover{
@@ -539,10 +543,9 @@ display: flex;
 .imglist a{
     text-decoration: none;
 }
-
-
-
-
+.ver-mas-img{
+    display: none;
+}
 
 /*Estilos de  Contacto*/
 .secc-contacto{
@@ -695,11 +698,38 @@ z-index: 2;
     border-top: rgb(255, 255, 255) 0.05rem solid;
     padding: 0.8rem 0;
 }
-.msj-gracias a{
-    text-decoration: none;
-    color: cornsilk;
-}
 
+
+/*Secc Pag Gracias*/
+
+.secc-gracias{
+    background-image: url(../img/magoEspalda.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
+.secc-gracias::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    opacity: 0.5;
+}
+.msj-gracias{
+    position: relative;
+}
+.mensaje-gracias{
+    padding-top: 20rem;
+    padding-left: 1rem;
+}
+.mensaje-gracias a{
+    text-decoration: underline;
+
+    color: white;
+}
 /*Estilos de version Maximo 1400px*/
 @media only screen and (max-width: 1400px)  { 
 .pad-top{
@@ -713,12 +743,7 @@ z-index: 2;
     .secc-preg-frec{
         padding: 0 1rem ;
     } 
-    .secc-testimonios{
-        padding: 0 1rem;
-    }
-    .con-gral-reserva{
-        padding: 0 1rem;
-    }
+   
     .t-carrousel{
         padding: 0 1rem;
     }
@@ -899,13 +924,14 @@ box-sizing: border-box;
     height: 45vh;
 }
 /* Est. Secc Detalle Curso hasta 979px*/
+
 .icon-cal{
     height: 1.2rem;
     padding-right: .5rem;
 }
 .c-gral-curso-video{
     display: flex;
-    flex-direction:column;	
+    flex-direction:column-reverse;	
 }
 .detalle-curso{
     width: 100%;
@@ -951,7 +977,6 @@ box-sizing: border-box;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    padding-left: 0;
     }
 .c-alumnos-opinan{
 width: 100%;
@@ -968,16 +993,13 @@ width: 100%;
 .linea-separadora-corta{
     width: 100%;
 }
-
-    .c-opinion-videos{
-        padding-top: 0;
-    }
 /*Secc Reserva Curso hasta 979*/
 .con-gral-reserva{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 1.5rem 0;
 }
 .con-info-reserva{
     width: 100%;
@@ -1030,10 +1052,34 @@ width: 100%;
 }
 }
 
-
+@media all and (min-width: 768px) {
+    .fancybox-thumbs {
+      top: auto;
+      width: auto;
+      bottom: 0;
+      left: 0;
+      right : 0;
+      height: 95px;
+      padding: 10px 10px 5px 10px;
+      box-sizing: border-box;
+      background: rgba(0, 0, 0, 0.3);
+    }
+    
+    .fancybox-show-thumbs .fancybox-inner {
+      right: 0;
+      bottom: 95px;
+    }
+  }
 
 /*Estilos de version Maximo 767px*/
 @media only screen and (max-width: 767px){
+
+    
+    
+     /*Falseo el espacio donde estaba el navbar para quede todo visible en caso de usar fixed*/
+.contenedor-lp{
+    padding-top: 8.5rem;
+}
     .pad-top{
     padding-top: 4rem;
 }
@@ -1104,8 +1150,36 @@ width: 100%;
     .c-g-inicio{
         height: 40vh;
     }
+
+    /*Header*/
+    .navegador{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navegador ul {
+        display: none;
+     }
+     .navegador ul.show{
+        display: block;
+        text-align: center;
+     }
+    .navegador ul li{
+       display: block;
+    }
+.navegador ul li a{
+    display: block;
+    padding: 0.4rem 1rem;
+    transition: none;
+    border-radius: none;
+    text-decoration: none;
+    color:  rgb(71, 73, 75);
+    font-weight: bolder;
+ }
+ .navegador ul li a:hover{
+    border-style: none;
+ }
     /*Secc Detalle Curso hasta 767*/
-    
+
     .detalle-curso{
         width: 100%;
         padding: 0 0.2rem;
@@ -1114,7 +1188,8 @@ width: 100%;
            width: 100%;
        }  
     .logo-nav-container{
-        padding: 0 1rem;
+        padding: 1rem 1rem;
+        background: white;
     }
     .menu-icon{
         display: block;
@@ -1126,26 +1201,7 @@ width: 100%;
     .icon-rsp-menu{
         width: 1.5rem;
     }
-    .navegador{
-        width: 100%;
-        margin-top: 1rem;
-    }
-    .navegador ul {
-        display: none;
-     }
-     .navegador ul.show{
-        display: block;
-     }
-    .navegador ul li{
-       display: block;
-    }
-    .navegador ul li a{
-        display: block;
-        padding: 0.5rem 0;
-        transition: all 0.4s linear;
-        border-radius: 5px;
-     }
-    
+   
      .contenedor-pagos-botones{
         padding-bottom: 3rem;
     }
@@ -1185,8 +1241,7 @@ width: 100%;
 }
 
 .con-info-reserva{
-    width:90%;
-    padding-right:0.5rem;
+    width:100%;
 }
 /*Secc Contacto hasta 767*/
 .con-redes-form{
@@ -1248,6 +1303,10 @@ justify-content: center;
 
 /*Estilos de version Maximo 480px*/
 @media (max-width: 480px) {
+         /*Falseo el espacio donde estaba el navbar para quede todo visible en caso de usar fixed*/
+.contenedor-lp{
+    padding-top: 7rem;
+}
     .interlineado{
         line-height: 2rem;
     }
@@ -1287,12 +1346,15 @@ justify-content: center;
     .btn-pago{
         display: flex;
         flex-direction:column;	
+        justify-content: center;
+        width: 100%;
     }
     .btn-negro{
-        background-color: rgb(0, 0, 0);
+        background-color: transparent;
         color: rgb(255, 255, 255);
+        border: #ffffff 0.05rem solid;
         cursor: pointer;
-        border: transparent;
+       
     }
     .text-ad{
         padding-top: 3rem;
@@ -1324,7 +1386,10 @@ justify-content: center;
     padding-right: .5rem;
     font-size: 0.6rem;
 }
-
+.logo-nav-container{
+    padding: .5rem 1rem;
+   
+}
 /*Secc Inicio*/
 .c-frase{
    padding-top: 1.5rem;
@@ -1375,16 +1440,6 @@ justify-content: center;
 .cont-info-ilusionista{
     padding-top: 1rem;
 }
-
-/*
-.con-gral-ilusionista{
-    justify-content: center;
-    align-items: center;
-    height: 11rem;
-    width: 27rem;
-    padding-left:0;
-    background: red;
-}*/
 .img-ilus{
     height: 7rem;
     width: 10rem;
@@ -1404,7 +1459,6 @@ justify-content: center;
         align-items: flex-start;
         flex-direction: column;
         padding: 1.5rem 0;
-        width: 100%;
     }
     .c-botones-info{
         width: 100%;
@@ -1418,7 +1472,8 @@ justify-content: center;
         padding: 0 0;
     }
     .contenedor-btn-pagos{
-        width: 100%;
+        width: 95%;
+        display: block;
     }
     .btn-w-16{
         width: 100%;
@@ -1441,4 +1496,23 @@ justify-content: center;
         justify-content: flex-start;
         align-items: flex-start;
         }
+
+        /*Secc Galeria de Imagenes*/
+        .ocultar-img-480{
+            display: none;
+        }
+        .ver-mas-img{
+            display: inline;
+            padding: 2rem 0;
+           
+        }
+        .ver-mas-img a{
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            border: white .1rem solid;
+            padding: 1rem ;
+            
+        }
+
     }

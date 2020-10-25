@@ -14,7 +14,7 @@ if (isset ($_POST['btnEnviar'])){
         $header = "From: noreply@example.com" . "\r\n";
         $header.= "Reply-To: noreply@example.com" . "\r\n";
         $header.= "X-Mailer: PHP/" . phpversion();
-        $mail = mail('arieel.sommer@gmail.com', 'Asunto', $mensaje, $header);
+        $mail = mail('martinbraessas@gmail.com', 'Formulario Web // Curso Misterio', $mensaje, $header);
 
         header('Location: /gracias.php');
         die();
