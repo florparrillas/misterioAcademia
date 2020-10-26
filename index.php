@@ -674,7 +674,7 @@
                                 <img  class="icon-red-social" src="img/whatsapp_blanco.png" alt="">
                             </div>
                             <div class="link-redes">
-                                <a href="https://web.whatsapp.com/">+54 11 4474 3241</a>
+                                <a href="https://wa.me/5491144743241?text=Me%20gustaría%20saber%20más%20info%20sobre%20el%20curso.%20Gracias.">+54 11 4474 3241</a>
                             </div>
                         </div>
                     </div>
