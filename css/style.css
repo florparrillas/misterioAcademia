@@ -14,7 +14,9 @@ body{
     margin: auto;
     font-weight: 300;
 }
-
+.texto-ver-mas{
+    display: none;
+}
 .color-letra-gris{
     color: rgb(59, 59, 59);
 }
@@ -352,7 +354,7 @@ display: flex;
     display: flex;
     align-items: center;
     justify-content: center;
-    width:45%;    /* Ancho máximo */
+    width:40%;    /* Ancho máximo */
 }
 .c-pagos-botones{
     display: flex;
@@ -1520,5 +1522,21 @@ justify-content: center;
             padding: 1rem ;
             
         }
+.boton-ver-mas{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-ver-mas{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.2rem;
+    color: white;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+  
+}
 
     }

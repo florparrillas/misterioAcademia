@@ -19,7 +19,6 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
     <script src="https://kit.fontawesome.com/4fc631efaf.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Montserrat:wght@100;300;500;600;800;900&family=Orbitron:wght@400;500&disgit =swap"
         rel="stylesheet">
@@ -544,19 +543,17 @@
                                 </a>
                             </div>
 
-                            <div>
+                            <div class="boton-ver-mas">
                                 <a href="img/publico_03.png" data-fancybox="images">
                                     <img class="img-carrousel" src="img/publico_03.png" />
+                                    <p class="texto-ver-mas">Ver mas Imagenes!</p>
                                 </a>
+                                
                             </div>
-                            <div class="ver-mas-img">
-                                <a class=" btn-mas-img ver-mas-img" href="img/publico_04.png" data-fancybox="images">
-                                    Ver Mas Imagenes!!
-                                </a>
-                            </div>
+                            
 
-                            <div class="ocultar-img-480 img-dis-none">
-                                <a href="img/publico_04.png" data-fancybox="images">
+                            <div class="ocultar-img-480 img-dis-none ">
+                                <a href="img/publico_04.png"  data-fancybox="images">
                                     <img class="img-carrousel" src="img/publico_04.png" />
                                 </a>
                             </div>
@@ -677,7 +674,7 @@
                                 <img  class="icon-red-social" src="img/whatsapp_blanco.png" alt="">
                             </div>
                             <div class="link-redes">
-                                <a href="https://web.whatsapp.com/">+54 11 5555 5555</a>
+                                <a href="https://web.whatsapp.com/">+54 11 4474 3241</a>
                             </div>
                         </div>
                     </div>
