@@ -546,7 +546,9 @@
                             <div class="boton-ver-mas">
                                 <a href="img/publico_03.png" data-fancybox="images">
                                     <img class="img-carrousel" src="img/publico_03.png" />
-                                    <p class="texto-ver-mas">Ver mas Imagenes!</p>
+                                    <div class="btn-v-mas">
+                                        <p class="texto-ver-mas">Ver mas Imagenes!</p>
+                                    </div>
                                 </a>
                                 
                             </div>

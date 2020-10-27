@@ -571,7 +571,7 @@ display: flex;
 .form-datos-personales{
     display: flex;
     justify-content: flex-start;
-    width: 100%;
+    width: 43rem;
 }
 .con-redes-form{
     display: flex;
@@ -606,6 +606,7 @@ width: 30%;
 }
 .cont-info-usuario{
     padding: 1rem 0.5rem;
+
 }
 .inp-info{
     background: transparent;
@@ -617,15 +618,12 @@ width: 30%;
 }
 .inp-nombre{
     width: 12rem;
-    
 }
 .inp-telefono{
     width: 12rem;
-    
 }
 .inp-email{
     width: 16rem;
-    
 }
 .info-usuario{
     padding: 0.2rem 0.5rem;
@@ -643,9 +641,9 @@ input[type=number] {
     background:transparent;
     border-color: white;
     color: white;
-    width: 72%;
+    width: 100%;
     height: 7rem;
-    padding: 0 0.6rem;
+    padding: 0 0.5rem;
     font-family: 'Orbitron', sans-serif;
     padding-left: 1rem;
     padding-top: .5rem;
@@ -673,6 +671,9 @@ input[type=number] {
 text-decoration: none;
 color: white;
 }
+.form-mensaje{
+    width: 43rem;
+    }
 
 /*Boton Flotante Whatsapp*/
 .btn-float{
@@ -851,7 +852,8 @@ width: 75%;
 width: 100%;
 }
 .cont-info-usuario{
-width: 100%;
+width: 80%;
+
 }
 .inp-nombre{
     width: 90%;
@@ -1300,6 +1302,7 @@ justify-content: center;
         .form-datos-personales{
             width: 100%;
             }
+           
 }
 
 
@@ -1445,7 +1448,7 @@ justify-content: center;
 }
 .img-ilus{
     height: 7rem;
-    width: 10rem;
+    width: 11.5rem;
 }
 /*Secc Testimonios*/
 .c-alumnos-opinan{
@@ -1509,19 +1512,8 @@ justify-content: center;
         .ocultar-img-480{
             display: none;
         }
-        .ver-mas-img{
-            display: inline;
-            padding: 2rem 0;
-           
-        }
-        .ver-mas-img a{
-            text-decoration: none;
-            color: white;
-            font-size: 1rem;
-            border: white .1rem solid;
-            padding: 1rem ;
-            
-        }
+       
+       
 .boton-ver-mas{
     position: relative;
     display: inline-block;
@@ -1532,11 +1524,11 @@ justify-content: center;
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: white;
     transform: translate(-50%, -50%);
-    opacity: 0.8;
-  
+    border: white .1rem solid;
+    padding: .5rem;
 }
 
     }
