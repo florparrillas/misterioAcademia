@@ -159,13 +159,13 @@
                                         <p class="t-size-7">Premio mundial de invención.  </p>
                                         <div class="con-logo-redes">
                                             <div class="pad-right">
-                                                <a href="https://www.linkedin.com/">
+                                                <a target="_blank" href="https://www.linkedin.com/">
                                                     <img class="logo-red-social" src="img/linkedin_blanco.png" alt="">
                                                 </a>
                                                 
                                             </div>
                                             <div class="pad-right">
-                                                <a href="https://www.instagram.com/">
+                                                <a target="_blank" href="https://instagram.com/marceloinsua/">
                                                 <img class="logo-red-social" src="img/instagram_blanco.png" alt="">
                                                 </a>
                                             </div>
@@ -185,13 +185,13 @@
                                     <p class="t-size-7">Conferencista Internacional.</p>
                                     <div class="con-logo-redes">
                                     <div class="pad-right">
-                                                <a href="https://www.linkedin.com/">
+                                                <a target="_blank" href="https://www.linkedin.com/">
                                                     <img class="logo-red-social" src="img/linkedin_blanco.png" alt="">
                                                 </a>
                                                 
                                             </div>
                                             <div class="pad-right">
-                                                <a href="https://www.instagram.com/">
+                                                <a target="_blank" href="https://www.instagram.com/martinbraessas/ ">
                                                 <img class="logo-red-social" src="img/instagram_blanco.png" alt="">
                                                 </a>
                                             </div>
@@ -212,13 +212,13 @@
                                     <p class="t-size-7">Campeón latinoamericano.</p>
                                     <div class="con-logo-redes">
                                     <div class="pad-right">
-                                                <a href="https://www.linkedin.com/">
+                                                <a target="_blank" href="https://www.linkedin.com/">
                                                     <img class="logo-red-social" src="img/linkedin_blanco.png" alt="">
                                                 </a>
                                                 
                                             </div>
                                             <div class="pad-right">
-                                                <a href="https://www.instagram.com/">
+                                                <a target="_blank" href="https://instagram.com/magiarodrigo/">
                                                 <img class="logo-red-social" src="img/instagram_blanco.png" alt="">
                                                 </a>
                                             </div>
@@ -463,7 +463,7 @@
                             </div>
                 
     
-                            <div class="c-botones-info  ">
+                            <div class="c-botones-info ">
                                 <div class="">
                                     <div class="pad-left">
                                     <p class="t-weight-300 t-size-3 pad-cajas ">
@@ -479,25 +479,14 @@
     
                                         <div class="pad-cajas-1 btn-pago">
                                             <div class="bla">
-                                                <button  onClick="javascript:window.open('https://www.paypal.com', '_blank');"  class="btn-negro btn-w-16 btn-grueso pad-right" >Tarjeta de <br> Credito o Debito</button>
+                                                <button  onClick="javascript:window.open('https://www.paypal.com', '_blank');"  class="btn-negro btn-w-16 btn-grueso pad-right" >Mercado Pago</button>
                                             </div>
                                             <div>
                                                 <button onClick="javascript:window.open('https://www.paypal.com', '_blank');" class="btn-negro btn-w-16 btn-grueso ">Paypal</button>
                                             </div>
                                         </div>
-                                        <div class="pad-cajas-1 btn-pago">
-                                            <div class="bla">
-                                                <button  onClick="javascript:window.open('https://www.e-pagofacil.com/', '_blank');"  class="btn-negro btn-w-16 btn-grueso  pad-right">Pago Facil</button>
-                                            </div>
-                                            <div>
-                                                <button onClick="javascript:window.open('https://www.bbva.com.ar/', '_blank');"   class="btn-negro btn-w-16 btn-grueso ">Transferencia <br> Bancaria</button>
-                                            </div>
-                                        </div>
-                                        <div class="pad-cajas-1 btn-pago">
-                                            <div class="bla">
-                                                <button onClick="javascript:window.open('https://www.westernunion.com/', '_blank');"  class="btn-negro btn-w-16 btn-grueso pad-right">Western Union</button>
-                                            </div>
-                                        </div>
+                                       <a href="#contacto">Consultar por mas opciones de pago!</a>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -625,28 +614,28 @@
                                 <div class="form-datos-personales">
                                     <div class="cont-info-usuario">
                                         <input placeholder=" Nombre" class="inp-nombre inp-info" type="text" name="nombre" required
-                                         id=""> <span></span>
+                                         id="" autocomplete="new-text"> <span></span>
                                     </div>
 
                                     <div class="cont-info-usuario">
                                         <input placeholder=" Telefono" class="inp-telefono inp-info" type="number"
-                                        name="telefono" required id=""> <span></span>
+                                        name="telefono" required id="" autocomplete="nope"> <span></span>
                                     </div>
 
                                     <div class="cont-info-usuario">
                                         <input placeholder=" Email" class="inp-email inp-info" type="email" name="correo" required
-                                        id=""> <span></span>
+                                        id="" autocomplete="off" > <span></span>
                                     </div>
                                 </div>
                                 <div class="form-mensaje">
                                     <div class="info-usuario">
                                         <textarea placeholder=" Deje aqui su mensaje" class="txt-msj-usuario" name="mensaje" required
-                                            id=""></textarea>
+                                            id="" ></textarea>
                                     </div>
                                 </div>
                             </div>
                             <div class="cont-btn-enviar">
-                                <input class="btn-transparente btn-enviar-m " type="submit" value="Enviar!" name="btnEnviar" id="btnEnviar">
+                                <input class="btn-transparente btn-enviar-m " type="submit" value="Enviar!" name="btnEnviar" id="btnEnviar" >
                             </div>
                         </form>
 
@@ -660,7 +649,7 @@
                                 <img class="icon-red-social" src="img/linkedin_blanco.png" alt="">
                             </div>
                             <div class="link-redes">
-                                <a href="https://www.linkedin.com/">/academiademagia</a>
+                                <a  target="_blank" href="https://www.linkedin.com/">/academiademagia</a>
                             </div>
                         </div>
                         <div class="red-img-text">
@@ -668,7 +657,7 @@
                                 <img class="icon-red-social" src="img/instagram_blanco.png" alt="">
                             </div>
                             <div class="link-redes">
-                                <a href="https://www.instagram.com/">/academiademagia</a>
+                                <a target="_blank" href="https://www.instagram.com/">/academiademagia</a>
                             </div>
                         </div>
                         <div class="red-img-text">
@@ -676,7 +665,7 @@
                                 <img  class="icon-red-social" src="img/whatsapp_blanco.png" alt="">
                             </div>
                             <div class="link-redes">
-                                <a href="https://wa.me/5491144743241?text=Me%20gustaría%20saber%20más%20info%20sobre%20el%20curso.%20Gracias.">+54 11 4474 3241</a>
+                                <a target="_blank" href="https://wa.me/5491144743241?text=Me%20gustaría%20saber%20más%20info%20sobre%20el%20curso.%20Gracias.">+54 11 4474 3241</a>
                             </div>
                         </div>
                     </div>

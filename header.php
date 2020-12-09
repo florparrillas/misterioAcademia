@@ -2,16 +2,17 @@
 <section class="secc-header">
 
 <header class="header-fix">
-    <div class="c-fecha-curso">
+<div class="c-fecha-curso">
         <div class="container fecha-curso-btn t-size-8">
             <img class="icon-var" src="img/calendar.png" alt="">
-            <p class="fecha-prox-curso"> Proximo Curso : 18 de Septiembre</p>
+            <p class="fecha-prox-curso"> Proximo Curso : <a class="consultar" href="#reserva-curso">Consultar</a></p>
             <button    onclick="location.href='#reserva-curso'" class="btn-gris btn-fino btn-w-9">Comprar Curso</button>
          </div>
         
     </div>
 
-    <div class=" logo-nav-container container">
+    <div class="logo-nav-container container">
+        
         <div>
             <p class="logo color-letra-gris t-size-4 t-weight-600">Misterio</p>
 

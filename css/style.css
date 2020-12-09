@@ -218,7 +218,9 @@ body{
 .c-fecha-curso{
     background: black;
     color: rgb(255, 255, 255);
-    
+}
+.consultar:hover{
+text-decoration: underline;
 }
 .fecha-curso-btn{
 display: flex;
@@ -247,7 +249,7 @@ display: flex;
     z-index: 2;
 }
 .header-fix a{
-    color:  rgb(71, 73, 75);
+    color:  rgb(255, 255, 255);
     text-decoration: none;
 }
 .logo-nav-container{
@@ -516,8 +518,13 @@ display: flex;
 .btn-pago{
     display: flex;
 }
-
-
+.c-botones-info a{
+    text-decoration: none;
+    color: white;
+}
+.c-botones-info a:hover{
+    text-decoration: underline;
+}
 
 
 /*Secc Galeria Imagenes*/
@@ -550,6 +557,7 @@ display: flex;
 }
 
 /*Estilos de  Contacto*/
+
 .secc-contacto{
     background-image: url(../img/mago1.png);
     background-attachment: fixed;
@@ -608,6 +616,7 @@ width: 30%;
     padding: 1rem 0.5rem;
 
 }
+
 .inp-info{
     background: transparent;
     border-color: white;
@@ -618,6 +627,7 @@ width: 30%;
 }
 .inp-nombre{
     width: 12rem;
+    
 }
 .inp-telefono{
     width: 12rem;
@@ -1513,7 +1523,6 @@ justify-content: center;
             display: none;
         }
        
-       
 .boton-ver-mas{
     position: relative;
     display: inline-block;
@@ -1525,10 +1534,11 @@ justify-content: center;
     top: 50%;
     left: 50%;
     font-size: 1rem;
-    color: white;
+    color: rgb(255, 255, 255);
     transform: translate(-50%, -50%);
     border: white .1rem solid;
     padding: .5rem;
+    background: rgba(255, 255, 255, 0.2);
 }
 
     }
