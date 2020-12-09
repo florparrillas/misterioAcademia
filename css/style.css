@@ -657,6 +657,7 @@ input[type=number] {
     font-family: 'Orbitron', sans-serif;
     padding-left: 1rem;
     padding-top: .5rem;
+    resize: none;
 }
 .cont-btn-enviar{
     display: flex;

@@ -158,12 +158,7 @@
                                         <p class="t-size-5 t-weight-600">Marcelo Insúa</p>
                                         <p class="t-size-7">Premio mundial de invención.  </p>
                                         <div class="con-logo-redes">
-                                            <div class="pad-right">
-                                                <a target="_blank" href="https://www.linkedin.com/">
-                                                    <img class="logo-red-social" src="img/linkedin_blanco.png" alt="">
-                                                </a>
-                                                
-                                            </div>
+                                            
                                             <div class="pad-right">
                                                 <a target="_blank" href="https://instagram.com/marceloinsua/">
                                                 <img class="logo-red-social" src="img/instagram_blanco.png" alt="">
@@ -184,12 +179,7 @@
                                     <p class="t-size-5 t-weight-600">Martin Braessas</p>
                                     <p class="t-size-7">Conferencista Internacional.</p>
                                     <div class="con-logo-redes">
-                                    <div class="pad-right">
-                                                <a target="_blank" href="https://www.linkedin.com/">
-                                                    <img class="logo-red-social" src="img/linkedin_blanco.png" alt="">
-                                                </a>
-                                                
-                                            </div>
+                                    
                                             <div class="pad-right">
                                                 <a target="_blank" href="https://www.instagram.com/martinbraessas/ ">
                                                 <img class="logo-red-social" src="img/instagram_blanco.png" alt="">
@@ -211,12 +201,7 @@
                                     <p class="t-size-5 t-weight-600">Rodrigo Romano</p>
                                     <p class="t-size-7">Campeón latinoamericano.</p>
                                     <div class="con-logo-redes">
-                                    <div class="pad-right">
-                                                <a target="_blank" href="https://www.linkedin.com/">
-                                                    <img class="logo-red-social" src="img/linkedin_blanco.png" alt="">
-                                                </a>
-                                                
-                                            </div>
+                                   
                                             <div class="pad-right">
                                                 <a target="_blank" href="https://instagram.com/magiarodrigo/">
                                                 <img class="logo-red-social" src="img/instagram_blanco.png" alt="">
