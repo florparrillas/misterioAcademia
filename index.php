@@ -152,7 +152,7 @@
                             
                                 <div class="con-gral-ilusionista">
                                     <div class="cont-img-ilusionista">
-                                        <img class="img-ilus" src="img/mago1.png" alt="">
+                                        <img class="img-ilus" src="img/mago1.jpeg" alt="">
                                     </div>
                                     <div class="cont-info-ilusionista">
                                         <p class="t-size-5 t-weight-600">Marcelo Insúa</p>
@@ -195,7 +195,7 @@
     
                             <div class="con-gral-ilusionista">
                                 <div class="cont-img-ilusionista">
-                                    <img class="img-ilus" src="img/mago3.png" alt="">
+                                    <img class="img-ilus" src="img/mago3.jpeg" alt="">
                                 </div>
                                 <div class="cont-info-ilusionista">
                                     <p class="t-size-5 t-weight-600">Rodrigo Romano</p>
@@ -440,7 +440,7 @@
                                     <img class="icon-cal" src="img/calendar.png" alt="">
                                     <div class="t-det-curso t-size-7">
                                         <p class="">
-                                        <strong>Martes, 18 de Septiembre 2020 // 18 hs.</strong> (de Argentina). </p>
+                                        <strong>Consultar proximo curso</strong> (Argentina). </p>
                                         <p><strong>4 Encuentros online</strong> // 4 a 6 trucos por clase. </p>
                                         <p>Clases mediante <strong>Zoom</strong> </p>
                                     </div>
@@ -450,13 +450,13 @@
     
                             <div class="c-botones-info ">
                                 <div class="">
-                                    <div class="pad-left">
-                                    <p class="t-weight-300 t-size-3 pad-cajas ">
-                                        Unico Pago <strong class="t-weight-800">$2.300,-</strong> Ars
-                                    </p>
-                                    <p class="t-size-5 t-weight-400 pad-cajas ">
-                                        <strong>Selecciona tu metodo de pago:</strong>
-                                    </p>
+                                    <div class="pad-left c-info-pago">
+                                        <p class="t-weight-300 t-size-3 pad-cajas info-info-pago">
+                                            Unico Pago <a class="url-a-contact" href="#contacto"><strong class="t-weight-800 t-size-4 c-pointer">- Consultar Precio (AR$)</strong></a>
+                                        </p>
+                                        <p class="t-size-5 t-weight-400 pad-cajas ">
+                                            <strong>Selecciona tu metodo de pago:</strong>
+                                        </p>
                                     </div>
                                     
     

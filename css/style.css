@@ -421,8 +421,8 @@ display: flex;
     align-items: center;
 }
 .img-ilus{
-    height: 8rem;
-    width: 13rem;
+    height: 9rem;
+    width: 12rem;
 }
 .con-logo-redes{
     display: flex;
@@ -685,7 +685,12 @@ color: white;
 .form-mensaje{
     width: 43rem;
     }
-
+    .c-info-pago .info-info-pago a{
+        text-decoration: none;
+    }
+.url-a-contact{
+   
+}
 /*Boton Flotante Whatsapp*/
 .btn-float{
 display:scroll;
