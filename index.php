@@ -22,6 +22,7 @@
     <script src="https://kit.fontawesome.com/4fc631efaf.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Montserrat:wght@100;300;500;600;800;900&family=Orbitron:wght@400;500&disgit =swap"
         rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Academia de Magia</title>
 </head>
 
@@ -88,7 +89,7 @@
                                
                                         <div class="t-det-curso t-size-7">
                                             <p class="">
-                                            <strong>Martes, 18 de Septiembre 2020 // 18 hs.</strong> (de Argentina). </p>
+                                            <strong>Consultar proximo curso</strong> (Argentina). </p>
                                             <p><strong>4 Encuentros online</strong> // 4 a 6 trucos por clase. </p>
                                             <p>Clases mediante <strong>Zoom</strong> </p>
                                         </div>
@@ -98,7 +99,7 @@
                                 <div class="c-pagos-botones">
                                     <div class="pad-left">
                                         <p class="t-size-5 pad-cajas">
-                                            Unico Pago <strong>$2.300,-</strong> Ars
+                                            Unico Pago <a class="url-a-contact" href="#contacto"><strong class="t-weight-800 t-size-4 c-pointer">- Consultar Precio (AR$)</strong></a>
                                         </p>
                                         <p class="t-size-5">
                                             <strong>Metodos de Pago:</strong>
@@ -152,7 +153,7 @@
                             
                                 <div class="con-gral-ilusionista">
                                     <div class="cont-img-ilusionista">
-                                        <img class="img-ilus" src="img/mago1.jpeg" alt="">
+                                        <img class="img-ilus" src="img/marcelo_insua.jpg" alt="">
                                     </div>
                                     <div class="cont-info-ilusionista">
                                         <p class="t-size-5 t-weight-600">Marcelo Insúa</p>
@@ -173,7 +174,7 @@
                             
                             <div class="con-gral-ilusionista">
                                 <div class="cont-img-ilusionista">
-                                    <img class="img-ilus" src="img/mago2.JPG" alt="">
+                                    <img class="img-ilus" src="img/martin_braessas.jpg" alt="">
                                 </div>
                                 <div class="cont-info-ilusionista">
                                     <p class="t-size-5 t-weight-600">Martin Braessas</p>
@@ -195,7 +196,7 @@
     
                             <div class="con-gral-ilusionista">
                                 <div class="cont-img-ilusionista">
-                                    <img class="img-ilus" src="img/mago3.jpeg" alt="">
+                                    <img class="img-ilus" src="img/rodrigo_romano.jpg" alt="">
                                 </div>
                                 <div class="cont-info-ilusionista">
                                     <p class="t-size-5 t-weight-600">Rodrigo Romano</p>
@@ -414,7 +415,264 @@
                             </div>
                         </div>
                     </div>
-                </div>   
+                </div> 
+
+                  <!--Comentarios Facebook -->
+                  <section class="secc-casousel">
+        <div class="Carousel  pad-cajas">
+
+            <div class="slick-list  " id="slick-list">
+                <button class="slick-arrow slick-prev" id="button-prev">
+                    <img class="flecha" src="img/i-izquierda.png" alt="">
+                </button>
+                <div class="slick-track" id="track">
+                 
+
+                    <div class="slick">
+                        <div class="c-coment-fb">
+                            <div class="c-text-comentario">
+                                
+                                <img class="comillas" src="img/signo-de-comillas-a-la-izquierda.png" alt="">
+                                <p class="p-coment">Me sorprendieron en cada clase, un curso muy interesante para hacer, muy divertidos y muy mágicos los trucos que aprendimos.</p>
+                            </div>
+                            <div class="c-red-comentario">
+                                <div class="c-img-nombre">
+                                    <img class="foto-perfil" src="img-coment/magojoaquin.PNG" alt="">
+                                    <div  class="c-info-coment">
+                                        <p class="p-prueba">Mago Joaquin</p>
+                                        <img class="img-puntuacion" src="img/estrellas.png" alt="">
+                                    </div>
+                                </div>
+                                
+                                <a href="https://www.instagram.com/nachovilella27/" target="_blank"><img class="red-social-comentario" src="img/instagram.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slick">
+                        <div class="c-coment-fb">
+                            <div class="c-text-comentario">
+                                
+                                <img class="comillas" src="img/signo-de-comillas-a-la-izquierda.png" alt="">
+                                <p class="p-coment">El curso en general superó las expectativas.  Los tres profes se pusieron de verdad y la rompieron , tengo la suerte de decir  que estudie con tres monstruos de la magia y espero que el año que viene siga.</p>
+                            </div>
+                            <div class="c-red-comentario">
+                                <div class="c-img-nombre">
+                                    <img class="foto-perfil" src="img-coment/nachovilella28.PNG" alt="">
+                                    <div  class="c-info-coment">
+                                        <p class="p-prueba">Nacho Viella</p>
+                                        <img class="img-puntuacion" src="img/estrellas.png" alt="">
+                                    </div>
+                                </div>
+                                
+                                <a href="https://www.instagram.com/nachovilella27/" target="_blank"><img class="red-social-comentario" src="img/instagram.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slick">
+                        <div class="c-coment-fb">
+                            <div class="c-text-comentario">
+                               
+                                <img class="comillas" src="img/signo-de-comillas-a-la-izquierda.png" alt="">
+                                <p class="p-coment">Nunca pensé que a mis 60 años iba a estudiar Magia! Muy contenta con haber tomado la decisión, me la paso haciendo Magia a mis amigos y familiares  :) </p>
+                            </div>
+                            <div class="c-red-comentario">
+                                <div class="c-img-nombre">
+                                    <img class="foto-perfil" src="img-coment/silvianoemiviegas.PNG" alt="">
+                                    <div  class="c-info-coment">
+                                        <p class="p-prueba">Silvia Noemi Viegas</p>
+                                        <img class="img-puntuacion" src="img/estrellas.png" alt="">
+                                        
+                                    </div>
+                                </div>
+                                
+                                <a href="https://www.instagram.com/silvianoemiviegas/" target="_blank"><img class="red-social-comentario" src="img/instagram.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slick">
+                        <div class="c-coment-fb">
+                            <div class="c-text-comentario">
+                                
+                               <img class="comillas" src="img/signo-de-comillas-a-la-izquierda.png" alt="">
+                               <p class="p-coment">Super profesionales los profes, vemos los efectos en detalle, aprendemos teoría y no solo cómo hacer los trucos sino también como piensan el público y cómo comunicarnos mejor! ¡Muy completo!</p>
+                            </div>
+                            <div class="c-red-comentario">
+                                <div class="c-img-nombre">
+                                    <img class="foto-perfil" src="img-coment/hehofarias.PNG" alt="">
+                                    <div class="c-info-coment">
+                                        <p class="p-prueba">Heho Farias</p>
+                                        <img class="img-puntuacion" src="img/estrellas.png" alt="">
+                                    </div>
+                                </div>
+                                
+                                <a href="https://www.instagram.com/hehofarias/" target="_blank"><img class="red-social-comentario" src="img/instagram.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slick">
+                        <div class="c-coment-fb">
+                            <div class="c-text-comentario">
+                               
+                               <img class="comillas" src="img/signo-de-comillas-a-la-izquierda.png" alt="">
+                               <p class="p-coment">No me considero una persona hábil con las manos.. no sabía si el curso iba a ser para mi.. estaba equivocado! Después de las primeras clases ya estaba haciéndole magia a todos mis conocidos!!</p>
+                            </div>
+                            <div  class="c-red-comentario">
+                                <div class="c-img-nombre">
+                                    <img class="foto-perfil" src="img-coment/charlymagic.PNG" alt="">
+                                    <div class="c-info-coment">
+                                        <p class="p-prueba">Charly Magic</p>
+                                        <img class="img-puntuacion" src="img/estrellas.png" alt="">
+                                    </div> 
+                                </div>
+                                
+                                <a href="https://instagram.com/charly.magic?igshid=undw8vftbd0j" target="_blank"><img class="red-social-comentario" src="img/instagram.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slick">
+                        <div class="c-coment-fb">
+                            <div class="c-text-comentario">
+                                
+                               <img class="comillas" src="img/signo-de-comillas-a-la-izquierda.png" alt="">
+                               <p class="p-coment">Las clases son un show cada una! Muy variadas, bien estructuradas y que nos entregaran apuntes con lo visto en cada clase fue genial! Tengo todo lo que vimos en el curso guardado para estudiarlo las veces que quiera!</p>
+                            </div>
+                            <div  class="c-red-comentario">
+                                <div class="c-img-nombre">
+                                    <img class="foto-perfil" src="img-coment/javicassinelli.PNG" alt="">
+                                    <div class="c-info-coment">
+                                         <p class="p-prueba">Javi Cassinelli</p>
+                                         <img class="img-puntuacion" src="img/estrellas.png" alt="">
+                                     </div>
+                                </div>
+                               
+                                <a href="https://instagram.com/javicassinelli?igshid=18zddmqh6f4a6" target="_blank"><img class="red-social-comentario" src="img/instagram.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slick">
+                        <div class="c-coment-fb">
+                           
+                            <div class="c-text-comentario">
+                               <img class="comillas" src="img/signo-de-comillas-a-la-izquierda.png" alt="">
+                               <p class="p-coment">En un año donde todo giró alrededor de la pandemia, tuve la suerte de encontrarme cada semana con 3 grandes maestros los cuales nos ofrecieron un curso de alto nivel y me animo a decir que pocas veces visto.</p>
+                            </div>
+                            <div class="c-red-comentario">
+                                <div class="c-img-nombre">
+                                    <img class="foto-perfil" src="img-coment/skulski38.PNG" alt="">
+                                    <div class="c-info-coment">
+                                        <p class="p-prueba">Skulski</p>
+                                        <img class="img-puntuacion" src="img/estrellas.png" alt="">
+                                    </div>
+                                </div>
+                               
+                                <a href="https://www.instagram.com/skulski38/" target="_blank"><img class="red-social-comentario" src="img/instagram.png" alt=""></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slick">
+                        <div class="c-coment-fb">
+                           
+                            <div class="c-text-comentario">
+                               <img class="comillas" src="img/signo-de-comillas-a-la-izquierda.png" alt="">
+                               <p class="p-coment">Quiero agradecerles la buena disposición, el humor, pero por sobretodo la generosidad. Además de buenos maestros, excelentes personas. Agradezco a la pandemia que me hizo conocerlos.</p>
+                            </div>
+                            <div class="c-red-comentario">
+                                <div class="c-img-nombre">
+                                    <img class="foto-perfil" src="img-coment/magaksandra.PNG" alt="">
+                                    <div class="c-info-coment">
+                                        <p class="p-prueba">Maga Ksandra</p>
+                                        <img class="img-puntuacion" src="img/estrellas.png" alt="">
+                                    </div>
+                                </div>
+                                
+                                <a href="https://www.instagram.com/magaksandra/" target="_blank"><img class="red-social-comentario" src="img/instagram.png" alt=""></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slick">
+                        <div class="c-coment-fb">
+                           
+                            <div class="c-text-comentario">
+                               <img class="comillas" src="img/signo-de-comillas-a-la-izquierda.png" alt="">
+                               <p class="p-coment">Gracias por tanta magia y dedicación, un curso memorable.</p>
+                            </div>
+                            <div class="c-red-comentario">
+                                <div class="c-img-nombre">
+                                    <img class="foto-perfil" src="img-coment/nachitocavallo.PNG" alt="">
+                                    <div class="c-info-coment">
+                                        <p class="p-prueba">Nachito Cavallo</p>
+                                        <img class="img-puntuacion" src="img/estrellas.png" alt="">
+                                    </div>
+                                </div>
+                                
+                                <a href=" https://www.instagram.com/nachito.cavallo/" target="_blank"><img class="red-social-comentario" src="img/instagram.png" alt=""></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slick">
+                        <div class="c-coment-fb">
+                           
+                            <div class="c-text-comentario">
+                               <img class="comillas" src="img/signo-de-comillas-a-la-izquierda.png" alt="">
+                               <p class="p-coment">Es la primera vez que estoy en un curso de magia y me gusta cada día más gracias por estos meses compartidos.</p>
+                            </div>
+                            <div class="c-red-comentario">
+                                <div class="c-img-nombre">
+                                        <img class="foto-perfil" src="img-coment/leonicolas.PNG" alt="">
+                                    <div class="c-info-coment">
+                                        <p class="p-prueba">Leo Nicolas</p>
+                                        <img class="img-puntuacion" src="img/estrellas.png" alt="">
+                                    </div>
+                                </div>
+                                
+                                <a href="https://instagram.com/leo.nicolass?igshid=1fmor0h213i51" target="_blank"><img class="red-social-comentario" src="img/instagram.png" alt=""></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slick">
+                        <div class="c-coment-fb">
+                           
+                            <div class="c-text-comentario">
+                               <img class="comillas" src="img/signo-de-comillas-a-la-izquierda.png" alt="">
+                               <p class="p-coment">De cómo lo imposible campea contra lo inexorable. De cómo las distancias desaparecen Y el aislamiento es teletransportación. De eso van las clases De magia. Contra toda industria de la soledad o amenaza de irreversible.
+                            </p>
+                            </div>
+                            <div class="c-red-comentario">
+                                <div class="c-img-nombre">
+                                    <img class="foto-perfil" src="img-coment/raulalbertoceruti.PNG" alt="">
+                                    <div class="c-info-coment">
+                                        <p class="p-prueba">Raul Alberto Ceruti</p>
+                                        <img class="img-puntuacion" src="img/estrellas.png" alt="">
+                                    </div>
+                                </div>
+                                
+                                <a href="https://www.instagram.com/raulalbertoceruti/" target="_blank"><img class="red-social-comentario" src="img/instagram.png" alt=""></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="slick-arrow slick-next" id="button-next">
+                    <img class="flecha" src="img/i-derecha.png" alt="">
+                </button>
+            </div>
+        </div>
+    </section>
         </section>
 
 
@@ -619,10 +877,19 @@
                                     </div>
                                 </div>
                             </div>
+                            <br>
+                            <div class="g-recaptcha" data-sitekey="6LdnaCMaAAAAAOUgbFqs23Tb0-XcOFkH_ZxH98SB"></div> <br>
                             <div class="cont-btn-enviar">
                                 <input class="btn-transparente btn-enviar-m " type="submit" value="Enviar!" name="btnEnviar" id="btnEnviar" >
                             </div>
                         </form>
+
+
+
+
+
+
+
 
                         <?php include("enviar.php") ?>
 

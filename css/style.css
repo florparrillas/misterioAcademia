@@ -363,6 +363,10 @@ display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.c-pagos-botones a{
+    text-decoration: none;
+    color: white;
+}
 .boton-pad{
     padding-bottom: 1.5rem;
 }
@@ -421,7 +425,6 @@ display: flex;
     align-items: center;
 }
 .img-ilus{
-    height: 9rem;
     width: 12rem;
 }
 .con-logo-redes{
@@ -488,6 +491,125 @@ display: flex;
     display: flex;
     align-items: center; 
    justify-content: space-around;
+}
+.Carousel{
+    width: 100%;
+    background: #eeeeeeff;
+    
+}
+.slick-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 16rem;  
+    margin: 0px auto;
+    max-width: 98vw;    
+    overflow: hidden;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease-in-out;
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+.slick{
+    position: relative;
+    width: 28rem; 
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 .3rem;
+    
+}
+.c-coment-fb{
+    padding: 1rem 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 1rem; 
+    width: 30rem;
+    height: 15rem;
+}
+.slick-arrow{
+    position: absolute;
+    background: #eeeeeeff;
+    z-index: 1;
+    width: 2rem;
+    height:100%; 
+    text-align: center; 
+    align-items:center;
+    border: none;
+    cursor: pointer;
+}
+.slick-arrow:focus{
+    outline: 0;
+}
+.flecha{
+    width: 1.5rem;
+    height: 2rem;
+    color: rgba(0,0,0,.7);
+}
+.slick-prev{
+left: 0;
+}
+.slick-next{
+    right: 0;
+}
+
+.comillas{
+    width: 1rem;
+}
+.c-text-comentario{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-left:  5px solid rgb(41, 62, 129);
+    height: 8rem;
+}
+.p-coment{
+    width: 90%;
+    font-size: .8rem;
+    color: gray;
+}
+.foto-perfil{
+    width: 4rem;
+}
+.c-red-comentario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.5rem;
+}
+.c-img-nombre{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.img-perfil-fb{
+    padding: 0 5rem;
+}
+.red-social-comentario{
+    width: 2.5rem;
+    padding-right: 1rem;
+}
+.c-info-coment{
+    align-items: center;
+  padding-left: .5rem;
+}
+.p-prueba{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #434343;
+}
+.img-puntuacion{
+    position: absolute;
+    top: 175px;  
 }
 
 /*Seccion Reservar Curso*/
@@ -668,11 +790,7 @@ input[type=number] {
 .btn-enviar-m{
     width: 10rem;
 }
-.carousel {
-    max-width: 800px;
-    margin: 0 auto;
-    display: flex;
-}
+
 #imagen {
     width: 100%;
     height: 400px;
@@ -688,9 +806,7 @@ color: white;
     .c-info-pago .info-info-pago a{
         text-decoration: none;
     }
-.url-a-contact{
-   
-}
+
 /*Boton Flotante Whatsapp*/
 .btn-float{
 display:scroll;
@@ -847,7 +963,6 @@ z-index: 2;
     
 }
 .img-ilus{
-    height: 6rem;
     width: 9rem;
 }
 .logo-red-social{
@@ -979,7 +1094,6 @@ box-sizing: border-box;
     width:75%
 }
 .img-ilus{
-    height: 9rem;
     width: 14rem;
 }
 .con-gral-ilusionista{
@@ -1090,6 +1204,7 @@ width: 100%;
       right: 0;
       bottom: 95px;
     }
+    
   }
 
 /*Estilos de version Maximo 767px*/
@@ -1237,7 +1352,6 @@ width: 100%;
     
 
 .img-ilus{
-    height: 8rem;
     width: 13rem;
 }
 .cont-ilusionistas{
@@ -1255,6 +1369,30 @@ width: 100%;
     }
     .c-opinion-videos{
         padding-top: 0;
+    }
+    .slick-list{
+        height: 25rem;  
+      
+    }
+    .slick{
+        width: 23rem; 
+        height: 16rem;
+    }
+    .c-coment-fb{
+        width: 23rem;
+        height: 16rem;
+    }
+    .c-text-comentario{
+                
+        height: 10rem;
+    }
+    .p-coment{
+        width: 90%;
+        font-size: .8rem;
+    }
+    .img-puntuacion{
+        position: absolute;
+        top: 205px;  
     }
 /*Secc Preguntas Frecuentes hasta 767*/
 .t-preguntas-frecuentes{
@@ -1287,6 +1425,7 @@ justify-content: center;
     justify-content: flex-start;
     align-items: center;
 }
+
 .formulario-contacto{
     width: 100%;
 }
@@ -1451,7 +1590,7 @@ justify-content: center;
     display: block;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 16rem;
+    height: 19rem;
     width: 100%;
 }
 .con-logo-redes{
@@ -1463,7 +1602,6 @@ justify-content: center;
     padding-top: 1rem;
 }
 .img-ilus{
-    height: 7rem;
     width: 11.5rem;
 }
 /*Secc Testimonios*/
@@ -1509,6 +1647,39 @@ justify-content: center;
     .img-carrousel{
         width: 100%;
     }
+    /*Secc testimonios*/
+    .c-text-comentario{
+            
+        height: 12rem;
+    }
+    .slick{
+        width: 17rem; 
+        height: 23rem;
+    }
+    .c-coment-fb{
+        width: 17rem;
+        height: 18rem;
+    }
+    .p-coment{
+        width: 90%;
+        font-size: .7rem;
+    }
+    .foto-perfil{
+        width: 3rem;
+    }
+    .p-prueba{
+        font-size: .8rem;
+
+    }
+    .img-puntuacion{
+        position: absolute;
+        top: 285px;  
+        width: 3rem;
+    }
+    .red-social-comentario{
+        width: 2rem;
+        padding-right: 1rem;
+    }
     /*Secc Contacto*/
     .red-img-text{
         display: flex;
@@ -1548,3 +1719,41 @@ justify-content: center;
 }
 
     }
+    @media (max-width: 330px) { 
+        .slick{
+            width: 15rem; 
+            height: 23rem;
+        }
+        .c-coment-fb{
+            width: 15rem;
+            height: 18rem;
+        }
+        .p-coment{
+            width: 90%;
+            font-size: .6rem;
+        }
+        .foto-perfil{
+            width: 2rem;
+        }
+        .p-prueba{
+            font-size: .7rem;
+    
+        }
+        .img-puntuacion{
+            position: absolute;
+            top: 285px;  
+            width: 3rem;
+        }
+        .red-social-comentario{
+            width: 1.2rem;
+            padding-right: .3rem;
+        }
+        .c-text-comentario{
+            
+            height: 12rem;
+        }
+        .slick-list{
+            height: 20rem;  
+          
+        }
+       }
